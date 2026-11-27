@@ -249,3 +249,26 @@ button { font: inherit; color: inherit; }
 /* About: keep heading and text aligned to the same top rule */
 .about { align-items: start; }
 .about .section-head { align-content: start; align-items: start; }
+
+/* ---------- All publications ---------- */
+.all-pubs { margin-top: clamp(72px, 9vw, 128px); scroll-margin-top: 90px; }
+.all-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 10px 32px; padding-top: 18px; border-top: 1px solid var(--ink); margin-bottom: 8px; }
+.all-title { font-size: clamp(26px, 2.8vw, 36px); letter-spacing: -.03em; line-height: 1.1; }
+.all-head .muted { font-size: 15px; }
+.year-groups, .year-list { list-style: none; margin: 0; padding: 0; }
+.year-group { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 0 clamp(24px, 4vw, 56px); border-bottom: 1px solid var(--line); }
+.year { margin: 0; font-weight: 400; padding-top: 22px; color: var(--accent); font-size: 13px; }
+.full-pub { padding: 20px 0; }
+.full-pub + .full-pub { border-top: 1px solid var(--line); }
+.full-title { display: inline; font-size: 17px; font-weight: 500; line-height: 1.4; letter-spacing: -.005em; text-decoration: none; }
+.full-title:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.full-authors { margin-top: 6px; font-size: 14.5px; color: var(--muted); }
+.full-authors strong { color: var(--ink); font-weight: 600; }
+.full-meta { margin-top: 6px; color: var(--muted); font-size: 11.5px; text-transform: none; letter-spacing: .02em; }
+@media (max-width: 720px) {
+  .year-group { grid-template-columns: 1fr; }
+  .year { padding-top: 20px; }
+  .full-pub { padding: 14px 0 16px; }
+  .full-pub:first-child { padding-top: 8px; }
+  .full-title { font-size: 16px; }
+}

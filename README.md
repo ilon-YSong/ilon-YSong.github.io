@@ -13,10 +13,11 @@ Open `index.html` in a browser, or serve the folder:
 - `assets/js/site.js`: mobile menu, image lightbox (title/caption/credit per image, Esc, ←/→), copy email
 - `assets/img/`: research concept renders (`research-*.webp`, 900px card + full size), publication schematics (`thumb-*.svg`), gripper photographs (KAIST News)
 - `assets/fonts/`: Archivo 400–700 (woff2, SIL OFL)
+- `data/publications.json`: full publication list (30 articles from ORCID, details from Crossref; the 2020 corrigendum is left out)
 - `concepts/`: earlier five design studies (kept for reference, not indexed)
 
 ## Editing
-- Text: edit `index.html` directly. Each publication is one `<li class="pub">`.
+- Text: edit `index.html` directly. Each featured paper is one `<li class="pub">`; each entry in the full list is one `<li class="full-pub">` under its year.
 - Replace a research image: overwrite `assets/img/research-<name>.webp` and `-900.webp` (3:2, transparent or ivory background).
 - Push to `main`; GitHub Pages republishes in about a minute.
 
