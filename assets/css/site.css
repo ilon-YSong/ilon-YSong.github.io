@@ -7,12 +7,12 @@
 @font-face { font-family: "Archivo"; src: url("../fonts/archivo-700.woff2") format("woff2"); font-weight: 700; font-display: swap; }
 
 :root {
-  --bg: #F8F8F3;
+  --bg: #FFFFFF;
   --ink: #242720;
   --muted: #676B61;
   --accent: #A54734;
   --line: #D8DAD1;
-  --panel: #F1F1EA;
+  --panel: #F4F4F1;
   --sans: "Archivo", "Helvetica Neue", Arial, sans-serif;
   --mono: ui-monospace, "SFMono-Regular", "JetBrains Mono", Menlo, Consolas, monospace;
   --max: 1280px;
@@ -45,7 +45,7 @@ button { font: inherit; color: inherit; }
 /* ---------- Top bar ---------- */
 .topbar {
   position: sticky; top: 0; z-index: 20;
-  background: rgba(248, 248, 243, .94);
+  background: rgba(255, 255, 255, .94);
   -webkit-backdrop-filter: saturate(1.2) blur(8px); backdrop-filter: saturate(1.2) blur(8px);
   border-bottom: 1px solid var(--line);
 }
@@ -108,7 +108,7 @@ button { font: inherit; color: inherit; }
 .figure-btn:hover img { transform: scale(1.025); }
 .zoom {
   position: absolute; right: 12px; bottom: 12px; padding: 5px 8px; font-size: 11px;
-  background: rgba(248, 248, 243, .92); border: 1px solid var(--line); opacity: 0; transition: opacity .2s;
+  background: rgba(255, 255, 255, .92); border: 1px solid var(--line); opacity: 0; transition: opacity .2s;
 }
 .figure-btn:hover .zoom, .figure-btn:focus-visible .zoom { opacity: 1; }
 
