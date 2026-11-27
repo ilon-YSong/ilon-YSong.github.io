@@ -306,7 +306,7 @@ button { font: inherit; color: inherit; }
 .all-links a:hover { border-bottom-color: var(--accent); }
 .year-group { grid-template-columns: 150px minmax(0, 1fr); }
 .year { margin: 0; padding-top: 18px; font-family: var(--sans); font-size: clamp(30px, 3vw, 40px); font-weight: 600; letter-spacing: -.035em; line-height: 1; color: var(--accent); text-transform: none; }
-.full-pub { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: clamp(20px, 3vw, 36px); align-items: start; }
+.full-pub { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: clamp(20px, 3vw, 36px); align-items: start; }
 .full-toc { display: block; width: 100%; background: #fff; border: 1px solid var(--line); }
 .full-toc img { width: 100%; height: auto; }
 .full-toc:hover img { transform: none; }
