@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300" role="img" aria-labelledby="title desc">
+<title id="title">Machine learning guided DLP elastomers</title><desc id="desc">Concept illustration of formulation screening and a printed compliant gripper holding an object.</desc>
+<defs>
+<linearGradient id="bg" x2="0" y2="1"><stop stop-color="#faf9f2"/><stop offset="1" stop-color="#efeee3"/></linearGradient>
+<linearGradient id="glass" x2="1" y2="1"><stop stop-color="#e0eee9"/><stop offset="1" stop-color="#8bb7ab"/></linearGradient>
+<linearGradient id="rust" x2="0" y2="1"><stop stop-color="#d18b71"/><stop offset="1" stop-color="#a54d3c"/></linearGradient>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1l7 4-7 4" fill="none" stroke="#56726a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<pattern id="dot" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#6a7b6d" opacity=".36"/></pattern>
+</defs>
+<rect width="480" height="300" fill="url(#bg)"/><rect x="23" y="24" width="434" height="252" rx="20" fill="#fcfaf4" fill-opacity=".6" stroke="#dcdcd0"/><path d="M47 57V43h14m358 0h14v14M47 243v14h14m358 0h14v-14" fill="none" stroke="#a5afa0" stroke-width="1.3"/>
+<g stroke-linecap="round" stroke-linejoin="round">
+<rect x="64" y="76" width="139" height="137" rx="15" fill="#f5f2e6" stroke="#d5d9ca" stroke-width="2"/><rect x="78" y="87" width="111" height="114" rx="8" fill="url(#dot)"/>
+<path d="M91 176V106m0 70h86" fill="none" stroke="#4b635b" stroke-width="2"/>
+<path d="M99 165c34-12 52-33 74-51" stroke="#a44735" stroke-width="3" fill="none" stroke-dasharray="4 7"/>
+<circle cx="104" cy="152" r="4" fill="#69998c"/><circle cx="116" cy="161" r="4" fill="#69998c"/><circle cx="121" cy="142" r="4" fill="#69998c"/><circle cx="137" cy="153" r="4" fill="#69998c"/><circle cx="139" cy="127" r="4" fill="#69998c"/><circle cx="152" cy="135" r="4" fill="#69998c"/><circle cx="161" cy="145" r="4" fill="#69998c"/><circle cx="171" cy="118" r="6" fill="#a54d3c"/>
+<path d="M102 190h28m13 0h10m10 0h10" stroke="#a1b2a7" stroke-width="3"/>
+<path d="M218 143 266 143" fill="none" stroke="#56726a" stroke-width="2.8" marker-end="url(#arrow)"/>
+<ellipse cx="345" cy="219" rx="65" ry="10" fill="#6b8270" opacity=".13"/>
+<path d="M336 68h18v34h-18z" fill="#dce7dd" stroke="#52766b" stroke-width="2.5"/>
+<path d="M314 100h62v14h-62z" fill="url(#glass)" stroke="#52766b" stroke-width="3"/>
+<ellipse cx="345" cy="173" rx="34" ry="37" fill="#edbc80" stroke="#a66246" stroke-width="2.6"/>
+<path d="M336 158q6-9 15-10" fill="none" stroke="#f7dbac" stroke-width="5"/>
+<path d="M318 110c-37 12-45 77-19 96l18-13c-21-17-15-45 8-63zm54 0c37 12 45 77 19 96l-18-13c21-17 15-45-8-63z" fill="url(#glass)" stroke="#3e7567" stroke-width="3.5"/>
+<path d="M302 120l12 9m-21 5l14 7m-19 10l15 3m-17 14l15-1m-11 17l13-5m-7 19l12-9m80-69l-12 9m21 5l-14 7m19 10l-15 3m17 14l-15-1m11 17l-13-5m7 19l-12-9" stroke="#588a7b" stroke-width="3"/>
+<text x="133" y="245" font-family="Arial,sans-serif" font-size="17" font-weight="600" fill="#465b52" text-anchor="middle">Resin design</text><text x="345" y="245" font-family="Arial,sans-serif" font-size="17" font-weight="600" fill="#465b52" text-anchor="middle">Printed gripper</text></g></svg>

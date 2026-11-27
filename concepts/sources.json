@@ -1,0 +1,41 @@
+{
+  "content_basis": "Younghan_Song_Homepage_v2.html, saved 2026-11-26",
+  "original_homepage": "https://sites.google.com/view/younghan/home",
+  "original_access_note": "The original URL requested Google sign-in during this session; the latest saved homepage draft supplied the content.",
+  "design_reference": "https://mai.seoultech.ac.kr/",
+  "publication_layout_reference": "https://kihoon-son.github.io/#publications",
+  "font": "Archivo; inspected computed font family and MAI CSS. Four weights bundled with OFL license.",
+  "gripper_photo": "https://www.kaist.ac.kr/news/html/news/?GotoPage=5&mng_no=66470&mode=V",
+  "illustrations": "Original conceptual canvas/SVG graphics; not experimental data.",
+  "material_render": "AI-generated conceptual visual; not an experimental photograph.",
+  "papers": [
+    {
+      "year": "2026",
+      "journal": "Nature Communications",
+      "title": "Machine learning guided formulation design of digital light processing printable elastomers beyond viscosity stretchability tradeoff",
+      "authors": "Y. Song, B. Park, S. Jeon, H. Kweon, S. Lee, and J. Na",
+      "doi": "https://doi.org/10.1038/s41467-026-73735-4",
+      "code": "https://doi.org/10.5281/zenodo.19389221",
+      "cat": "printing",
+      "extra": " · Co-first author"
+    },
+    {
+      "year": "2022",
+      "journal": "Carbohydrate Polymers",
+      "title": "Pore-size control of chitin nanofibrous composite membrane using metal-organic frameworks",
+      "authors": "Y. Song, J. Y. Seo, H. Kim, S. Cho, and K.-Y. Baek",
+      "doi": "https://doi.org/10.1016/j.carbpol.2021.118754",
+      "cat": "bio",
+      "extra": ""
+    },
+    {
+      "year": "2019",
+      "journal": "Carbohydrate Polymers",
+      "title": "Structural control of cellulose nanofibrous composite membrane with metal organic framework (ZIF-8) for highly selective removal of cationic dye",
+      "authors": "Y. Song, J. Y. Seo, H. Kim, and K.-Y. Baek",
+      "doi": "https://doi.org/10.1016/j.carbpol.2019.115018",
+      "cat": "bio",
+      "extra": ""
+    }
+  ]
+}
