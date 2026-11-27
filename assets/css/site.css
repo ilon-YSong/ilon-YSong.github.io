@@ -299,3 +299,25 @@ button { font: inherit; color: inherit; }
 .pub-img img { width: 100%; height: auto; }
 .pub-img:hover img { transform: none; }
 @media (max-width: 860px) { .pub { grid-template-columns: 1fr; } .pub-img { max-width: 560px; } }
+
+/* ---------- All publications v2: TOC column, larger years ---------- */
+.all-links { display: flex; gap: 24px; }
+.all-links a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; padding-bottom: 2px; font-size: 12.5px; }
+.all-links a:hover { border-bottom-color: var(--accent); }
+.year-group { grid-template-columns: 150px minmax(0, 1fr); }
+.year { margin: 0; padding-top: 18px; font-family: var(--sans); font-size: clamp(30px, 3vw, 40px); font-weight: 600; letter-spacing: -.035em; line-height: 1; color: var(--accent); text-transform: none; }
+.full-pub { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: clamp(20px, 3vw, 36px); align-items: start; }
+.full-toc { display: block; width: 100%; background: #fff; border: 1px solid var(--line); }
+.full-toc img { width: 100%; height: auto; }
+.full-toc:hover img { transform: none; }
+.full-toc.is-empty { background: transparent; border: 0; }
+@media (max-width: 860px) {
+  .full-pub { grid-template-columns: 180px minmax(0, 1fr); }
+}
+@media (max-width: 720px) {
+  .year-group { grid-template-columns: 1fr; }
+  .year { font-size: 30px; padding-top: 22px; }
+  .full-pub { grid-template-columns: 1fr; gap: 12px; }
+  .full-toc { max-width: 420px; }
+  .full-toc.is-empty { display: none; }
+}

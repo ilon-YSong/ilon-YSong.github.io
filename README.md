@@ -13,6 +13,7 @@ Open `index.html` in a browser, or serve the folder:
 - `assets/js/site.js`: mobile menu, image lightbox (title/caption/credit per image, Esc, ←/→), copy email
 - `assets/img/`: research concept renders (`research-*.webp`, 900px card + full size), published TOC / figures for the featured papers (`toc-*.webp`), hero render (`hero-material*.webp`), gripper photographs (KAIST News)
 - `assets/fonts/`: Archivo 400–700 (woff2, SIL OFL)
+- `tools/build_publications.py`: rebuilds the All publications list in `index.html` from the JSON (run after adding a TOC image)
 - `data/publications.json`: full publication list (30 articles from ORCID, details from Crossref; the 2020 corrigendum is left out)
 - `concepts/`: earlier five design studies (kept for reference, not indexed)
 
@@ -23,4 +24,4 @@ Open `index.html` in a browser, or serve the folder:
 
 ## Image notes
 Research renders are concept images, not experimental photographs or microscope images.
-Featured-paper figures are shown unaltered: the published graphical abstracts of the 2019 and 2022 Carbohydrate Polymers papers (© Elsevier) and Fig. 1 of the 2026 Nature Communications paper (CC BY 4.0).
+Publication TOC graphics in the full list are the publishers' table-of-contents images (Elsevier, Springer Nature), shown unaltered with a link to the paper. Featured-paper figures are shown unaltered: the published graphical abstracts of the 2019 and 2022 Carbohydrate Polymers papers (© Elsevier) and Fig. 1 of the 2026 Nature Communications paper (CC BY 4.0).

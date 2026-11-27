@@ -13,7 +13,10 @@
    "H. Kweon",
    "S. Lee",
    "J. Na"
-  ]
+  ],
+  "toc": "assets/img/toc-2026-natcommun-fig1.webp",
+  "toc_thumb": "assets/img/toc-2026-natcommun-fig1-900.webp",
+  "toc_source": "CC BY 4.0, Fig. 1"
  },
  {
   "doi": "10.1016/j.ijbiomac.2026.153803",
@@ -29,7 +32,10 @@
    "S. Kim",
    "W.-K. Park",
    "H. Kim"
-  ]
+  ],
+  "toc": null,
+  "toc_thumb": null,
+  "toc_source": null
  },
  {
   "doi": "10.1016/j.cej.2025.163848",
@@ -49,7 +55,10 @@
    "C. H. Park",
    "J. Na",
    "J. Y. Seo"
-  ]
+  ],
+  "toc": "assets/img/ga-cej-2025-163848.webp",
+  "toc_thumb": "assets/img/ga-cej-2025-163848-600.webp",
+  "toc_source": "Elsevier"
  },
  {
   "doi": "10.1002/cssc.202401968",
@@ -67,7 +76,10 @@
    "S. H. Kim",
    "K. Baek",
    "J. Na"
-  ]
+  ],
+  "toc": null,
+  "toc_thumb": null,
+  "toc_source": null
  },
  {
   "doi": "10.1016/j.carbpol.2024.122685",
@@ -86,7 +98,10 @@
    "J. Na",
    "J. Y. Seo",
    "K.-Y. Baek"
-  ]
+  ],
+  "toc": "assets/img/ga-carbpol-2025-122685.webp",
+  "toc_thumb": "assets/img/ga-carbpol-2025-122685-600.webp",
+  "toc_source": "Elsevier"
  },
  {
   "doi": "10.1016/j.carbpol.2023.121489",
@@ -101,7 +116,10 @@
    "J.-H. Lee",
    "J. Na",
    "K.-Y. Baek"
-  ]
+  ],
+  "toc": "assets/img/ga-carbpol-2024-121489.webp",
+  "toc_thumb": "assets/img/ga-carbpol-2024-121489-600.webp",
+  "toc_source": "Elsevier"
  },
  {
   "doi": "10.1016/j.cej.2024.154352",
@@ -121,7 +139,10 @@
    "Y. Song",
    "J. Na",
    "Y. Mao"
-  ]
+  ],
+  "toc": null,
+  "toc_thumb": null,
+  "toc_source": null
  },
  {
   "doi": "10.1016/j.polymer.2023.126032",
@@ -137,7 +158,10 @@
    "C. Y. Ryu",
    "C. Bae",
    "C. R. Picu"
-  ]
+  ],
+  "toc": "assets/img/ga-polymer-2023.webp",
+  "toc_thumb": "assets/img/ga-polymer-2023-600.webp",
+  "toc_source": "Elsevier"
  },
  {
   "doi": "10.1016/j.carbpol.2021.118754",
@@ -152,7 +176,10 @@
    "H. Kim",
    "S. Cho",
    "K.-Y. Baek"
-  ]
+  ],
+  "toc": "assets/img/toc-2022-chitin-zif8.webp",
+  "toc_thumb": "assets/img/toc-2022-chitin-zif8-900.webp",
+  "toc_source": "Elsevier"
  },
  {
   "doi": "10.1007/s10570-021-04209-7",
@@ -168,7 +195,10 @@
    "M. Kim",
    "E. Ko",
    "H. Kim"
-  ]
+  ],
+  "toc": "assets/img/ga-cellulose-2021.webp",
+  "toc_thumb": "assets/img/ga-cellulose-2021-600.webp",
+  "toc_source": "Springer Nature"
  },
  {
   "doi": "10.1016/j.carbpol.2020.117387",
@@ -182,7 +212,10 @@
    "S. Pak",
    "Y. Song",
    "H. Kim"
-  ]
+  ],
+  "toc": "assets/img/ga-carbpol-2021-117387.webp",
+  "toc_thumb": "assets/img/ga-carbpol-2021-117387-600.webp",
+  "toc_source": "Elsevier"
  },
  {
   "doi": "10.1021/acsami.1c08138",
@@ -198,7 +231,10 @@
    "H. Kim",
    "S. Cho",
    "K.-Y. Baek"
-  ]
+  ],
+  "toc": null,
+  "toc_thumb": null,
+  "toc_source": null
  },
  {
   "doi": "10.12772/TSE.2020.57.192",
@@ -216,7 +252,10 @@
    "S. Park",
    "M. Kim",
    "H. Kim"
-  ]
+  ],
+  "toc": null,
+  "toc_thumb": null,
+  "toc_source": null
  },
  {
   "doi": "10.1007/s10570-020-03099-5",
@@ -230,7 +269,10 @@
    "Y. Song",
    "J. Ahn",
    "H. Kim"
-  ]
+  ],
+  "toc": "assets/img/ga-cellulose-2020.webp",
+  "toc_thumb": "assets/img/ga-cellulose-2020-600.webp",
+  "toc_source": "Springer Nature"
  },
  {
   "doi": "10.1007/s12221-020-9934-4",
@@ -243,7 +285,10 @@
    "J. Woo",
    "H. Kim",
    "Y. Song"
-  ]
+  ],
+  "toc": null,
+  "toc_thumb": null,
+  "toc_source": null
  },
  {
   "doi": "10.7317/pk.2019.43.6.958",
@@ -256,7 +301,10 @@
    "Y. Song",
    "Y. Kim",
    "H. Kim"
-  ]
+  ],
+  "toc": null,
+  "toc_thumb": null,
+  "toc_source": null
  },
  {
   "doi": "10.1016/j.dib.2019.104038",
@@ -271,7 +319,10 @@
    "J. E. Kwon",
    "J. Woo",
    "H. Kim"
-  ]
+  ],
+  "toc": null,
+  "toc_thumb": null,
+  "toc_source": null
  },
  {
   "doi": "10.1007/s12221-019-1038-7",
@@ -284,7 +335,10 @@
    "Y. Kim",
    "Y. Song",
    "H. Kim"
-  ]
+  ],
+  "toc": null,
+  "toc_thumb": null,
+  "toc_source": null
  },
  {
   "doi": "10.1016/j.msec.2019.04.019",
@@ -302,7 +356,10 @@
    "S. Kim",
    "J. Woo",
    "H. Kim"
-  ]
+  ],
+  "toc": "assets/img/ga-msec-2019.webp",
+  "toc_thumb": "assets/img/ga-msec-2019-600.webp",
+  "toc_source": "Elsevier"
  },
  {
   "doi": "10.1016/j.carbpol.2019.115018",
@@ -316,7 +373,10 @@
    "J. Y. Seo",
    "H. Kim",
    "K.-Y. Baek"
-  ]
+  ],
+  "toc": "assets/img/toc-2019-cellulose-zif8.webp",
+  "toc_thumb": "assets/img/toc-2019-cellulose-zif8-900.webp",
+  "toc_source": "Elsevier"
  },
  {
   "doi": "10.1007/s10570-017-1625-y",
@@ -329,7 +389,10 @@
    "Y. Kim",
    "Y. Song",
    "H. Kim"
-  ]
+  ],
+  "toc": null,
+  "toc_thumb": null,
+  "toc_source": null
  },
  {
   "doi": "10.12772/tse.2017.54.017",
@@ -342,7 +405,10 @@
    "Y. Song",
    "C. Kim",
    "H. Kim"
-  ]
+  ],
+  "toc": null,
+  "toc_thumb": null,
+  "toc_source": null
  },
  {
   "doi": "10.1021/acsmacrolett.7b00307",
@@ -355,7 +421,10 @@
    "Y. Ahn",
    "Y. Song",
    "H. Kim"
-  ]
+  ],
+  "toc": null,
+  "toc_thumb": null,
+  "toc_source": null
  },
  {
   "doi": "10.1016/j.carbpol.2016.12.022",
@@ -369,7 +438,10 @@
    "Y. Song",
    "H. Kim",
    "S.-Y. Kwak"
-  ]
+  ],
+  "toc": null,
+  "toc_thumb": null,
+  "toc_source": null
  },
  {
   "doi": "10.1007/s12221-017-7079-x",
@@ -385,7 +457,10 @@
    "J. Woo",
    "Y. Kim",
    "H. Kim"
-  ]
+  ],
+  "toc": null,
+  "toc_thumb": null,
+  "toc_source": null
  },
  {
   "doi": "10.1016/j.carbpol.2015.10.006",
@@ -399,7 +474,10 @@
    "Y. Song",
    "S.-Y. Kwak",
    "H. Kim"
-  ]
+  ],
+  "toc": null,
+  "toc_thumb": null,
+  "toc_source": null
  },
  {
   "doi": "10.1039/c5cp06616f",
@@ -413,7 +491,10 @@
    "S.-Y. Kwak",
    "Y. Song",
    "H. Kim"
-  ]
+  ],
+  "toc": null,
+  "toc_thumb": null,
+  "toc_source": null
  },
  {
   "doi": "10.1186/s40691-015-0036-7",
@@ -428,7 +509,10 @@
    "H. J. Kim",
    "Y. Song",
    "H. Kim"
-  ]
+  ],
+  "toc": null,
+  "toc_thumb": null,
+  "toc_source": null
  },
  {
   "doi": "10.12772/tse.2014.51.299",
@@ -441,7 +525,10 @@
    "H. E. Cho",
    "Y. Song",
    "H. Kim"
-  ]
+  ],
+  "toc": null,
+  "toc_thumb": null,
+  "toc_source": null
  },
  {
   "doi": "10.1007/s12221-014-1835-y",
@@ -456,6 +543,9 @@
    "Y. Song",
    "Y.-H. Yang",
    "H. Kim"
-  ]
+  ],
+  "toc": null,
+  "toc_thumb": null,
+  "toc_source": null
  }
 ]
