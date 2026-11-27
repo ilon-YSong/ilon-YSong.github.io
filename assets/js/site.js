@@ -127,19 +127,33 @@
 // Korean / English toggle (paper titles stay in English)
 (() => {
   const KO = {
+    'ui.skip': '본문 바로가기', 'ui.enlarge': '그림 확대 +', 'hero.figcap': '소재 구조 개념도',
+    'hero.name': '<span>송영한 박사</span> · <span>건국대학교 재료공학과 선임연구원</span>',
+    'credits.concept': '첫 화면과 연구 분야의 이미지는 소재 구조와 가공 원리를 설명하기 위한 개념도입니다. 실험 사진이나 현미경 이미지는 아닙니다.',
+    'about.cvList': '<dt class="mono cv-group">경력</dt><dd class="cv-group"></dd>'
+      + '<dt class="mono">2025년–현재</dt><dd>건국대학교 재료공학과 선임연구원</dd>'
+      + '<dt class="mono">2023–2025년</dt><dd>한국과학기술연구원(KIST) 극한물성소재연구센터 박사후연구원</dd>'
+      + '<dt class="mono">2023년</dt><dd>KOTITI시험연구원 첨단소재융합연구팀 연구원</dd>'
+      + '<dt class="mono">2020–2022년</dt><dd>미국 렌슬리어 공과대학교(RPI) 화학·화학생물학과 박사후연구원</dd>'
+      + '<dt class="mono cv-group">연구과제</dt><dd class="cv-group"></dd>'
+      + '<dt class="mono">2024–2029년</dt><dd>한국연구재단 세종과학펠로우십 연구책임자</dd>'
+      + '<dt class="mono cv-group">학력</dt><dd class="cv-group"></dd>'
+      + '<dt class="mono">2020년 2월</dt><dd>건국대학교 유기나노시스템공학과 박사</dd>'
+      + '<dt class="mono">2016년 8월</dt><dd>건국대학교 유기나노시스템공학과 석사</dd>'
+      + '<dt class="mono">2015년 2월</dt><dd>건국대학교 유기나노시스템공학과 학사</dd>',
     'nav.research': '연구', 'nav.pubs': '대표 논문', 'nav.all': '전체 논문', 'nav.about': '소개', 'nav.contact': '연락처',
-    'hero.title': '고분자 공정과 <span class="accent">소재 설계</span>',
+    'hero.title': '고분자 소재 <span class="accent">설계와 가공</span>',
     'hero.affil': '건국대학교 연구교수',
-    'hero.intro': '수지 배합, 용액 공정, 섬유 구조가 고분자 소재의 물성을 어떻게 결정하는지 연구합니다. 3D 프린팅용 광경화 수지, 셀룰로오스 기반 필름과 섬유, 직조 복합재를 주로 다룹니다.',
-    'hero.btnResearch': '연구 분야', 'hero.btnContact': '연락하기', 'hero.btnCv': 'CV 다운로드',
-    'tag.concept': '개념 일러스트', 'tag.published': '논문 원본 그림',
+    'hero.intro': '소재의 조성과 가공 조건을 바꾸면 내부 구조와 성능이 어떻게 달라지는지 연구합니다. 3D 프린팅용 광경화 수지, 셀룰로오스 필름과 섬유, 탄소섬유 직물 복합재가 주요 연구 대상입니다.',
+    'hero.btnResearch': '연구 분야 보기', 'hero.btnContact': '연락하기', 'hero.btnCv': '이력서 다운로드',
+    'tag.concept': '개념도', 'tag.published': '논문 원본 그림',
     'research.title': '연구 분야',
-    'research.r1t': '3D 프린팅용 광경화 고분자',
-    'research.r1p': '유변학, 경화 측정, 머신러닝을 활용해 DLP(digital light processing)용 수지를 설계합니다. 핵심 질문은 출력할 수 있을 만큼 수지의 흐름성을 유지하면서도 경화된 부품을 잘 늘어나게 만드는 방법입니다.',
-    'research.r2t': '셀룰로오스 공정과 나노섬유',
-    'research.r2p': '용매 조성과 흐름이 용액 속 셀룰로오스의 구조 형성과 재생 후 얻어지는 배향에 어떤 영향을 주는지 연구합니다. 또한 셀룰로오스와 키틴 나노섬유로 분리막의 기공 구조를 제어합니다.',
-    'research.r3t': '직조 섬유 복합재',
-    'research.r3p': '평직과 주자직 탄소섬유 직물을 비교합니다. 건조 직물이 형상에 맞춰 변형되는 과정부터 경화된 적층판이 변형되고 파괴되는 과정까지 살펴봅니다. 직물과 적층판을 따로 시험해 직조 방식과 적층 순서의 영향을 구분합니다.',
+    'research.r1t': '3D 프린팅용 광경화 수지',
+    'research.r1p': '수지의 점도와 광경화 속도를 측정하고, 머신러닝으로 출력성과 신축성을 함께 고려한 배합을 찾습니다. DLP로 출력하기에 충분히 잘 흐르면서도, 경화 후에는 크게 늘어날 수 있는 소재를 설계합니다.',
+    'research.r2t': '셀룰로오스 가공과 나노섬유',
+    'research.r2p': '용매 조성과 가공 중 흐름이 셀룰로오스 사슬의 배열에 어떤 영향을 주고, 그 배열이 재생 필름에 어떻게 반영되는지 살펴봅니다. 셀룰로오스와 키틴 나노섬유를 활용해 분리막의 기공 구조와 분리 성능을 조절하는 연구도 합니다.',
+    'research.r3t': '탄소섬유 직물 복합재',
+    'research.r3p': '같은 탄소섬유라도 평직과 주자직으로 짰을 때 직물이 곡면을 따라가는 정도와 적층판의 변형·파괴 거동은 달라질 수 있습니다. 직물과 적층판을 각각 시험해 직조 방식과 적층 순서가 성능에 어떤 영향을 주는지 살펴봅니다.',
     'pubs.title': '대표 논문', 'pubs.lede': '대표 논문 세 편과 <a class="inline-link" href="#all-publications">전체 목록 ↓</a>',
     'feature.title': '수지 배합에서 실제로 작동하는 그리퍼까지.', 'w.source': '출처',
     'legend.first': '제1저자 또는 공동 제1저자', 'legend.corr': '교신저자',
@@ -149,16 +163,16 @@
     'news.label': '언론 보도',
     'all.title': '전체 논문',
     'f.all': '전체', 'f.polymer': '고분자·3D 프린팅', 'f.cellulose': '셀룰로오스·바이오고분자', 'f.mof': 'MOF·분리막', 'f.carbon': '탄소점', 'f.catal': 'CO₂·촉매', 'f.first': '제1·공동 제1저자 논문만',
-    'about.title': '송영한 소개',
-    'about.lead': '건국대학교 신소재공학과 연구교수로, 3D 프린팅용 광경화 수지에 관한 세종과학펠로우십 과제를 이끌고 있습니다. 건국대학교에서 박사 학위를 받았고, 렌슬리어 공과대학교(RPI)와 한국과학기술연구원(KIST)에서 박사후연구원으로 일했습니다.',
+    'about.title': '소개',
+    'about.lead': '건국대학교 재료공학과 선임연구원 송영한입니다. 한국연구재단 세종과학펠로우십 연구책임자로 3D 프린팅용 광경화 수지의 배합과 가공을 연구하고 있습니다. 건국대학교에서 박사 학위를 받은 뒤 미국 렌슬리어 공과대학교와 한국과학기술연구원에서 박사후연구원으로 일했습니다.',
     'about.cvTitle': '경력 및 학력',
     'about.cv1': '연구교수, 건국대학교 신소재공학과', 'about.cv2': '세종과학펠로우십 (연구책임자), 한국연구재단',
     'about.cv3': '박사후연구원, 한국과학기술연구원(KIST) 소재구조연구센터', 'about.cv4': '연구원, KOTITI시험연구원 첨단소재융합연구팀',
     'about.cv5': '박사후연구원, 렌슬리어 공과대학교(RPI) 화학·화학생물학과', 'about.cv6': '박사, 건국대학교 유기나노시스템공학과',
     'about.cv7': '석사, 건국대학교 유기나노시스템공학과', 'about.cv8': '학사, 건국대학교 유기나노시스템공학과',
     'contact.title': '연락처',
-    'contact.lede': '연구 협업, 세미나 초청, 연구 관련 문의는 <a href="mailto:ilon@konkuk.ac.kr">ilon@konkuk.ac.kr</a>로 메일 주세요.',
-    'contact.copy': '이메일 복사', 'contact.top': '맨 위로 ↑', 'credits.summary': '이미지 출처',
+    'contact.lede': '공동연구, 세미나 초청 또는 연구 관련 문의는 <a href="mailto:ilon@konkuk.ac.kr">ilon@konkuk.ac.kr</a>로 연락해 주세요.',
+    'contact.copy': '이메일 주소 복사', 'contact.top': '맨 위로 ↑', 'credits.summary': '이미지 출처',
   };
   const TAGS = { 'Published figure': '논문 원본 그림', 'Research illustration': '연구 일러스트' };
   const els = [...document.querySelectorAll('[data-i18n]')];

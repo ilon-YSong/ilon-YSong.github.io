@@ -398,3 +398,7 @@ sup.role { font-size: .72em; line-height: 0; color: var(--accent); margin-left: 
 .contact-lede a { color: var(--accent); }
 html[lang="ko"] body { word-break: keep-all; }
 @media (max-width: 720px) { .brand { margin-right: auto; } .lang-toggle { order: 2; margin-left: 0; } .menu-toggle { order: 3; } }
+.cv .cv-group { padding-top: 18px; border-bottom-color: var(--ink); color: var(--ink); font-weight: 600; letter-spacing: .04em; }
+.cv dt.cv-group { font-size: 12.5px; }
+html[lang="ko"] .cv { grid-template-columns: 104px 1fr; }
+html[lang="ko"] .hero h1 .accent { white-space: nowrap; }
