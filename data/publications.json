@@ -135,9 +135,9 @@
    "K. Baek",
    "J. Na"
   ],
-  "toc": null,
-  "toc_thumb": null,
-  "toc_source": null,
+  "toc": "assets/img/toc-2025-cssc-202401968.webp",
+  "toc_thumb": "assets/img/toc-2025-cssc-202401968-600.webp",
+  "toc_source": "Wiley (original TOC graphic, provided by the author)",
   "corr": [
    "K. Baek",
    "J. Na"
@@ -145,7 +145,8 @@
   "first": [
    "Q. T. Nguyen"
   ],
-  "cites": 16
+  "cites": 16,
+  "toc_kind": "published"
  },
  {
   "doi": "10.1016/j.carbpol.2024.122685",
@@ -357,9 +358,9 @@
    "S. Cho",
    "K.-Y. Baek"
   ],
-  "toc": null,
-  "toc_thumb": null,
-  "toc_source": null,
+  "toc": "assets/img/toc-2021-acsami-1c08138.webp",
+  "toc_thumb": "assets/img/toc-2021-acsami-1c08138-600.webp",
+  "toc_source": "American Chemical Society (original TOC graphic, provided by the author)",
   "corr": [
    "K.-Y. Baek"
   ],
@@ -367,7 +368,8 @@
    "J. Y. Seo",
    "Y. Song"
   ],
-  "cites": 49
+  "cites": 49,
+  "toc_kind": "published"
  },
  {
   "doi": "10.12772/TSE.2020.57.192",
@@ -590,8 +592,8 @@
    "Y. Song",
    "H. Kim"
   ],
-  "toc": null,
-  "toc_thumb": null,
+  "toc": "assets/img/toc-2018-s10570-017-1625-y.webp",
+  "toc_thumb": "assets/img/toc-2018-s10570-017-1625-y-600.webp",
   "toc_source": null,
   "corr": [
    "H. Kim"
@@ -600,7 +602,8 @@
    "Y. Kim",
    "Y. Song"
   ],
-  "cites": 42
+  "cites": 42,
+  "toc_kind": "illustration"
  },
  {
   "doi": "10.12772/tse.2017.54.017",
@@ -638,16 +641,17 @@
    "Y. Song",
    "H. Kim"
   ],
-  "toc": null,
-  "toc_thumb": null,
-  "toc_source": null,
+  "toc": "assets/img/toc-2017-acsmacrolett-7b00307.webp",
+  "toc_thumb": "assets/img/toc-2017-acsmacrolett-7b00307-600.webp",
+  "toc_source": "American Chemical Society (original TOC graphic, provided by the author)",
   "corr": [
    "H. Kim"
   ],
   "first": [
    "Y. Ahn"
   ],
-  "cites": 22
+  "cites": 22,
+  "toc_kind": "published"
  },
  {
   "doi": "10.1016/j.carbpol.2016.12.022",
@@ -742,8 +746,8 @@
    "Y. Song",
    "H. Kim"
   ],
-  "toc": null,
-  "toc_thumb": null,
+  "toc": "assets/img/toc-2016-c5cp06616f.webp",
+  "toc_thumb": "assets/img/toc-2016-c5cp06616f-600.webp",
   "toc_source": null,
   "corr": [
    "H. Kim"
@@ -753,7 +757,8 @@
    "S.-Y. Kwak",
    "Y. Song"
   ],
-  "cites": 47
+  "cites": 47,
+  "toc_kind": "illustration"
  },
  {
   "doi": "10.1186/s40691-015-0036-7",
