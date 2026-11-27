@@ -3,18 +3,29 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Younghan Song, Ph.D. · Polymeric Materials Research</title>
-  <meta name="description" content="Younghan Song, Ph.D. Research on photopolymers and DLP 3D printing, cellulose and nanofibers, and functional composites: how formulation and processing shape structure and function.">
+  <title>Younghan Song, Ph.D. · Polymer Processing and Materials Design · Konkuk University</title>
+  <meta name="description" content="Younghan Song, Ph.D., Research Fellow at Konkuk University. Polymer processing and materials design: photocurable resins for DLP 3D printing, cellulose processing and nanofibers, woven fiber composites. Publications, CV and contact.">
+  <meta name="author" content="Younghan Song">
   <meta name="theme-color" content="#FFFFFF">
-  <meta property="og:title" content="Younghan Song, Ph.D. · Polymeric Materials, shaped by design.">
-  <meta property="og:description" content="Photopolymers & 3D printing, cellulose & nanofibers, and functional composites.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/img/research-dlp-900.webp">
+  <link rel="canonical" href="https://ilon-ysong.github.io/">
+  <!-- Google Search Console: paste the verification tag here, e.g. <meta name="google-site-verification" content="..."> -->
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Younghan Song, Ph.D.">
+  <meta property="og:url" content="https://ilon-ysong.github.io/">
+  <meta property="og:title" content="Younghan Song, Ph.D. · Polymer Processing and Materials Design">
+  <meta property="og:description" content="Research Fellow, Konkuk University. Photocurable polymers for 3D printing, cellulose processing and nanofibers, woven fiber composites.">
+  <meta property="og:image" content="https://ilon-ysong.github.io/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Younghan Song","alternateName":"송영한","honorificSuffix":"Ph.D.","jobTitle":"Research Fellow","affiliation":{"@type":"CollegeOrUniversity","name":"Konkuk University","department":"Department of Materials Engineering"},"email":"mailto:ilon@konkuk.ac.kr","url":"https://ilon-ysong.github.io/","image":"https://ilon-ysong.github.io/assets/img/profile-600.webp","sameAs":["https://scholar.google.co.kr/citations?user=t_mzCmYAAAAJ","https://orcid.org/0000-0001-8236-3793","https://www.linkedin.com/in/younghan-song-247b8a157"],"knowsAbout":["Photopolymers","DLP 3D printing","Cellulose","Nanofibers","Metal-organic frameworks","Polymer composites"]}
+  </script>
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="assets/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/archivo-600.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="assets/css/site.css?v=20261127064101">
-  <script src="assets/js/site.js?v=20261127064101" defer></script>
+  <link rel="stylesheet" href="assets/css/site.css?v=20261127065539">
+  <script src="assets/js/site.js?v=20261127065539" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -27,11 +38,13 @@
       </a>
       <button class="menu-toggle mono" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
       <nav class="site-nav" id="site-nav" aria-label="Main">
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a href="#research" data-i18n="nav.research">Research</a>
+        <a href="#publications" data-i18n="nav.pubs">Publications</a>
+        <a href="#all-publications" data-i18n="nav.all">All papers</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
       </nav>
+      <button class="lang-toggle mono" type="button" aria-label="한국어로 보기" data-lang-toggle>KO</button>
     </div>
   </header>
 
@@ -39,13 +52,12 @@
     <!-- ① Hero -->
     <section class="hero wrap" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow mono">Younghan Song, Ph.D.</p>
-        <h1 id="hero-title"><span class="accent">Polymeric Materials,</span><br>shaped by design.</h1>
-        <p class="hero-sub">From processing to performance.</p>
-        <p class="hero-intro">I explore how formulation and processing shape the structure and function of polymers, bio-based nanofibers, and composites.</p>
+        <h1 id="hero-title" data-i18n="hero.title">Polymer Processing and <span class="accent">Materials Design</span></h1>
+        <p class="hero-name"><span>Younghan Song, Ph.D.</span> · <span data-i18n="hero.affil">Research Fellow, Konkuk University</span></p>
+        <p class="hero-intro" data-i18n="hero.intro">I study how resin formulation, solution processing, and fiber architecture shape the properties of polymeric materials. My work focuses on light-cured resins for 3D printing, cellulose-based films and fibers, and woven composites.</p>
         <div class="btn-row">
-          <a class="btn btn-solid" href="#research">Explore research</a>
-          <a class="btn btn-line" href="#publications">Selected publications</a>
+          <a class="btn btn-solid" href="#research" data-i18n="hero.btnResearch">Research Areas</a>
+          <a class="btn btn-line" href="#contact" data-i18n="hero.btnContact">Contact</a>
         </div>
       </div>
       <figure class="hero-figure">
@@ -53,12 +65,12 @@
           data-src="assets/img/hero-material.webp"
           data-title="Material in motion"
           data-caption="A translucent porous fiber ribbon, from woven filaments to an open network and aligned fibers."
-          data-credit="Concept render for this website. Not an experimental image.">
+          data-credit="Conceptual illustration for this website, not an experimental image.">
           <img src="assets/img/hero-material-1000.webp" srcset="assets/img/hero-material-1000.webp 1000w, assets/img/hero-material.webp 1774w" sizes="(max-width: 1024px) 100vw, 640px" width="1774" height="887" fetchpriority="high"
-            alt="Concept render: a translucent porous fiber ribbon twisting across a dark teal background, woven at one end and splitting into fine aligned fibers at the other.">
+            alt="Concept illustration: a translucent porous fiber ribbon twisting across a dark teal background, woven at one end and splitting into fine aligned fibers at the other.">
           <span class="zoom mono" aria-hidden="true">Enlarge +</span>
         </button>
-        <figcaption class="mono"><span>Structure study</span><span>Concept render</span></figcaption>
+        <figcaption class="mono"><span data-i18n="hero.figcap">Structure study</span><span class="fig-tag-inline" data-i18n="tag.concept">Concept illustration</span></figcaption>
       </figure>
     </section>
 
@@ -66,57 +78,56 @@
     <section class="section wrap" id="research" aria-labelledby="research-title">
       <div class="section-head">
         <p class="section-num mono">01 / RESEARCH</p>
-        <h2 id="research-title">Three directions.<br>One material perspective.</h2>
-        <p class="section-lede">From material formulation to structure, properties, and application.</p>
+        <h2 id="research-title" data-i18n="research.title">Research Areas</h2>
       </div>
 
       <div class="research-grid">
         <article class="research-item" id="r-formulate">
           <button class="figure-btn" type="button" data-lightbox
             data-src="assets/img/research-dlp.webp"
-            data-title="Photopolymers &amp; 3D Printing"
+            data-title="Photocurable Polymers for 3D Printing"
             data-caption="A transparent lattice printed beneath the build plate, rising from the resin vat above the light-curing window."
-            data-credit="Concept render for this website. Not an experimental photograph.">
+            data-credit="Conceptual illustration for this website, not an experimental image.">
             <img src="assets/img/research-dlp-900.webp" width="900" height="600"
-              alt="Concept render: a transparent lattice printed beneath a DLP build plate, rising from a resin vat above a light-curing window.">
+              alt="Concept illustration: a transparent lattice printed beneath a DLP build plate, rising from a resin vat above a light-curing window.">
             <span class="zoom mono" aria-hidden="true">Enlarge +</span>
           </button>
-          <p class="item-label mono"><span>01 / FORMULATE</span><span>Concept render</span></p>
-          <h3>Photopolymers &amp; 3D Printing</h3>
-          <p>Relating DLP resin composition to viscosity, photocuring kinetics, and mechanical performance.</p>
-          <p class="keywords mono">FORMULATION · PHOTOCURING · DLP</p>
+          <p class="item-label mono"><span>01 / FORMULATE</span><span data-i18n="tag.concept">Concept illustration</span></p>
+          <h3 data-i18n="research.r1t">Photocurable Polymers for 3D Printing</h3>
+          <p data-i18n="research.r1p">I use rheology, curing measurements, and machine learning to design resins for digital light processing (DLP). A central question is how to keep a resin fluid enough to print while making the cured part stretchable.</p>
+          <p class="keywords mono">DLP · RHEOLOGY · MACHINE LEARNING</p>
         </article>
 
         <article class="research-item" id="r-organize">
           <button class="figure-btn" type="button" data-lightbox
             data-src="assets/img/research-cellulose.webp"
-            data-title="Cellulose &amp; Nanofibers"
+            data-title="Cellulose Processing and Nanofibers"
             data-caption="A porous nanofiber network gradually organizing into aligned fibers."
-            data-credit="Concept render for this website. Not a microscope image.">
+            data-credit="Conceptual illustration for this website, not an experimental image.">
             <img src="assets/img/research-cellulose-900.webp" width="900" height="600"
-              alt="Concept render: a porous nanofiber network transitioning into a bundle of aligned fibers." loading="lazy">
+              alt="Concept illustration: a porous nanofiber network transitioning into a bundle of aligned fibers." loading="lazy">
             <span class="zoom mono" aria-hidden="true">Enlarge +</span>
           </button>
-          <p class="item-label mono"><span>02 / ORGANIZE</span><span>Concept render</span></p>
-          <h3>Cellulose &amp; Nanofibers</h3>
-          <p>Controlling how bio-based polymers form films, fibers, and porous structures through solution processing.</p>
-          <p class="keywords mono">SOLUTION PROCESSING · NANOFIBERS · MEMBRANES</p>
+          <p class="item-label mono"><span>02 / ORGANIZE</span><span data-i18n="tag.concept">Concept illustration</span></p>
+          <h3 data-i18n="research.r2t">Cellulose Processing and Nanofibers</h3>
+          <p data-i18n="research.r2p">I study how solvent composition and flow influence the organization of cellulose in solution and the alignment achieved after regeneration. I also work with cellulose and chitin nanofibers to control pore structure in membranes.</p>
+          <p class="keywords mono">SOLUTION PROCESSING · ALIGNMENT · MEMBRANES</p>
         </article>
 
         <article class="research-item" id="r-reinforce">
           <button class="figure-btn" type="button" data-lightbox
             data-src="assets/img/research-composite.webp"
-            data-title="Functional Composites"
+            data-title="Woven Fiber Composites"
             data-caption="Woven tows with visible fine filaments, stacked into a laminated carbon-fiber section."
-            data-credit="Concept render for this website. Not an experimental photograph.">
+            data-credit="Conceptual illustration for this website, not an experimental image.">
             <img src="assets/img/research-composite-900.webp" width="900" height="600"
-              alt="Concept render: woven fiber tows with fine filaments, stacked as a laminated carbon-fiber section with a lifted top ply." loading="lazy">
+              alt="Concept illustration: woven fiber tows with fine filaments, stacked as a laminated carbon-fiber section with a lifted top ply." loading="lazy">
             <span class="zoom mono" aria-hidden="true">Enlarge +</span>
           </button>
-          <p class="item-label mono"><span>03 / REINFORCE</span><span>Concept render</span></p>
-          <h3>Functional Composites</h3>
-          <p>Using woven architectures and nanofiber interfaces to tune mechanical performance and selective separation.</p>
-          <p class="keywords mono">WOVEN ARCHITECTURE · INTERFACES · SEPARATION</p>
+          <p class="item-label mono"><span>03 / REINFORCE</span><span data-i18n="tag.concept">Concept illustration</span></p>
+          <h3 data-i18n="research.r3t">Woven Fiber Composites</h3>
+          <p data-i18n="research.r3p">I compare plain and satin carbon-fiber weaves, from how the dry fabric conforms to a shape to how the cured laminate deforms and fails. Testing the fabric and the laminate separately helps distinguish the effects of weave and stacking sequence.</p>
+          <p class="keywords mono">PLAIN &amp; SATIN WEAVES · DRAPING · LAMINATES</p>
         </article>
       </div>
     </section>
@@ -125,8 +136,8 @@
     <section class="section wrap" id="publications" aria-labelledby="pub-title">
       <div class="section-head">
         <p class="section-num mono">02 / SELECTED PUBLICATIONS</p>
-        <h2 id="pub-title">Research in practice.</h2>
-        <p class="section-lede">Three representative papers, followed by the <a class="inline-link" href="#all-publications">full list ↓</a></p>
+        <h2 id="pub-title" data-i18n="pubs.title">Research in practice.</h2>
+        <p class="section-lede" data-i18n="pubs.lede">Three representative papers, followed by the <a class="inline-link" href="#all-publications">full list ↓</a></p>
       </div>
 
       <figure class="feature">
@@ -142,14 +153,15 @@
         </button>
         <figcaption class="feature-cap">
           <p class="mono">IN FOCUS · NATURE COMMUNICATIONS · 2026</p>
-          <p class="feature-title">From a resin recipe to a working gripper.</p>
-          <p class="muted">Experimental photographs · Source: <a href="https://www.kaist.ac.kr/news/html/news/?GotoPage=5&amp;mng_no=66470&amp;mode=V" target="_blank" rel="noopener">KAIST News ↗</a></p>
+          <p class="feature-title" data-i18n="feature.title">From a resin recipe to a working gripper.</p>
+          <p class="muted"><span data-i18n="tag.photo">Experimental photographs</span> · <span data-i18n="w.source">Source</span>: <a href="https://www.kaist.ac.kr/news/html/news/?GotoPage=5&amp;mng_no=66470&amp;mode=V" target="_blank" rel="noopener">KAIST News ↗</a></p>
         </figcaption>
       </figure>
 
-      <p class="role-legend mono"><sup class="role">†</sup> First or co-first author &nbsp; <sup class="role">*</sup> Corresponding author</p>
+      <p class="role-legend mono"><sup class="role">†</sup> <span data-i18n="legend.first">First or co-first author</span> &nbsp; <sup class="role">*</sup> <span data-i18n="legend.corr">Corresponding author</span></p>
       <ol class="pub-list">
         <li class="pub">
+          <div class="pub-fig">
           <button class="figure-btn pub-img" type="button" data-lightbox
             data-src="assets/img/toc-2026-natcommun-fig1.webp"
             data-title="Figure 1 · Nature Communications (2026)"
@@ -160,43 +172,62 @@
               alt="Figure 1 of the 2026 Nature Communications paper: formulation space and experimental data, a machine-learning surrogate model, surrogate-based optimization, and the optimized resin printed as a pneumatic gripper.">
             <span class="zoom mono" aria-hidden="true">Enlarge +</span>
           </button>
+          <span class="fig-tag mono" data-i18n="tag.published">Published figure</span>
+          </div>
           <div class="pub-body">
             <p class="pub-meta mono"><span class="accent">Nature Communications</span> · 2026</p>
+            <a class="badge mono" href="https://www.nature.com/collections/bjiiabbacg" target="_blank" rel="noopener"><span class="badge-star" aria-hidden="true">★</span> Editors’ Highlights: Devices <span aria-hidden="true">↗</span></a>
             <h3><a href="https://doi.org/10.1038/s41467-026-73735-4" target="_blank" rel="noopener">Machine learning guided formulation design of digital light processing printable elastomers beyond viscosity stretchability tradeoff</a></h3>
-            <p class="pub-summary">A machine-learning-guided workflow searches resin formulations for DLP-printable elastomers that stay low in viscosity while remaining highly stretchable, demonstrated with a printed compliant gripper.</p>
+            <p class="pub-summary" data-i18n="feat.dlp">A machine-learning-guided workflow searches resin formulations for DLP-printable elastomers that stay low in viscosity while remaining highly stretchable, demonstrated with a printed compliant gripper.</p>
             <p class="pub-authors"><strong>Y. Song</strong><sup class="role">†</sup>, B. Park<sup class="role">†</sup>, S. Jeon, H. Kweon, S. Lee<sup class="role">*</sup>, and J. Na<sup class="role">*</sup></p>
             <p class="pub-links mono">
               <a href="https://doi.org/10.1038/s41467-026-73735-4" target="_blank" rel="noopener">Paper ↗</a>
+              <a href="https://doi.org/10.5281/zenodo.19389221" target="_blank" rel="noopener">Code ↗</a>
+              <a href="https://www.nature.com/articles/s41467-026-73735-4#MOESM7" target="_blank" rel="noopener">Source data ↗</a>
+              <a href="https://www.nature.com/articles/s41467-026-73735-4#MOESM1" target="_blank" rel="noopener">Supplementary ↗</a>
               <span class="cites" data-doi="10.1038/s41467-026-73735-4">Cited by 5</span>
-              <a href="https://doi.org/10.5281/zenodo.19389221" target="_blank" rel="noopener">Data &amp; code ↗</a>
+            </p>
+            <p class="news mono"><span class="news-label" data-i18n="news.label">In the news</span>
+              <a href="https://www.kaist.ac.kr/news/html/news/?GotoPage=5&amp;mng_no=66470&amp;mode=V" target="_blank" rel="noopener">KAIST News</a>
+              <a href="https://www.eurekalert.org/news-releases/1142057" target="_blank" rel="noopener">EurekAlert!</a>
+              <a href="https://interestingengineering.com/ai-robotics/soft-robotic-hand-grips-fragile-eggs" target="_blank" rel="noopener">Interesting Engineering</a>
+              <a href="https://electronics360.globalspec.com/article/24130/from-fragile-eggs-to-heavy-bottles-gripper-handles-all" target="_blank" rel="noopener">Electronics360</a>
+              <a href="https://theaiinsider.tech/2026/09/03/kaist-researchers-use-ai-to-develop-a-soft-3d-printed-robotic-hand-that-can-grip-an-egg-1-kg-water-bottle/" target="_blank" rel="noopener">The AI Insider</a>
+              <a href="https://view.asiae.co.kr/article/2026090108384570466" target="_blank" rel="noopener">아시아경제</a>
+              <a href="https://www.hellodd.com/news/articleView.html?idxno=113020" target="_blank" rel="noopener">헬로디디</a>
+              <a href="https://www.hellot.net/news/article.html?no=114671" target="_blank" rel="noopener">헬로티</a>
             </p>
           </div>
         </li>
 
         <li class="pub">
+          <div class="pub-fig">
           <button class="figure-btn pub-img" type="button" data-lightbox
-            data-src="assets/img/toc-2022-chitin-zif8.webp"
-            data-title="Graphical abstract · Carbohydrate Polymers (2022)"
-            data-caption="Pore-size-tunable chitin nanofiber / ZIF-8 membranes: increasing ZIF-8 content raises water permeance while dye rejection depends on dye size."
-            data-credit="Published graphical abstract, Song et al., Carbohydr. Polym. 275, 118754 (2022). © Elsevier."
-            data-credit-href="https://doi.org/10.1016/j.carbpol.2021.118754">
-            <img src="assets/img/toc-2022-chitin-zif8-900.webp" width="900" height="249" loading="lazy"
-              alt="Graphical abstract of the 2022 Carbohydrate Polymers paper: chitin nanofiber membranes with increasing ZIF-8 content, and a chart of permeance and dye rejection.">
+            data-src="assets/img/toc-2026-j-ijbiomac-2026-153803.webp"
+            data-title="Graphical abstract · International Journal of Biological Macromolecules (2026)"
+            data-caption="Carboxylate-coordinated TiO2−x in TEMPO-oxidized nanocellulose aerogels for visible-light photocatalysis."
+            data-credit="Published graphical abstract, Lee, Song et al., Int. J. Biol. Macromol. 378, 153803 (2026). © Elsevier."
+            data-credit-href="https://doi.org/10.1016/j.ijbiomac.2026.153803">
+            <img src="assets/img/toc-2026-j-ijbiomac-2026-153803-600.webp" srcset="assets/img/toc-2026-j-ijbiomac-2026-153803-600.webp 600w, assets/img/toc-2026-j-ijbiomac-2026-153803.webp 1800w" sizes="(max-width: 860px) 100vw, 380px" loading="lazy"
+              alt="Graphical abstract of the 2026 International Journal of Biological Macromolecules paper: a porous TEMPO-oxidized nanocellulose aerogel with TiO2−x, its interface coordination, and visible-light degradation results.">
             <span class="zoom mono" aria-hidden="true">Enlarge +</span>
           </button>
+          <span class="fig-tag mono" data-i18n="tag.published">Published figure</span>
+          </div>
           <div class="pub-body">
-            <p class="pub-meta mono"><span class="accent">Carbohydrate Polymers</span> · 2022</p>
-            <h3><a href="https://doi.org/10.1016/j.carbpol.2021.118754" target="_blank" rel="noopener">Pore-size control of chitin nanofibrous composite membrane using metal-organic frameworks</a></h3>
-            <p class="pub-summary">Metal-organic framework (ZIF-8) particles grown within chitin nanofiber membranes adjust the effective pore size, linking membrane composition to size-selective separation.</p>
-            <p class="pub-authors"><strong>Y. Song</strong><sup class="role">†</sup>, J. Y. Seo<sup class="role">†</sup>, H. Kim, S. Cho<sup class="role">*</sup>, and K.-Y. Baek<sup class="role">*</sup></p>
+            <p class="pub-meta mono"><span class="accent">International Journal of Biological Macromolecules</span> · 2026</p>
+            <h3><a href="https://doi.org/10.1016/j.ijbiomac.2026.153803" target="_blank" rel="noopener">Carboxylate-coordinated TiO<sub>2−x</sub> in TEMPO-oxidized nanocellulose aerogels for visible-light photocatalysis</a></h3>
+            <p class="pub-summary" data-i18n="feat.tio2">Carboxylate groups on TEMPO-oxidized nanocellulose anchor TiO<sub>2−x</sub> inside a porous aerogel, turning a bio-based scaffold into a visible-light photocatalyst for water purification.</p>
+            <p class="pub-authors">S. Lee<sup class="role">†</sup>, <strong>Y. Song</strong><sup class="role">†</sup>, H. Park, S. Kim, W.-K. Park, and H. Kim<sup class="role">*</sup></p>
             <p class="pub-links mono">
-              <a href="https://doi.org/10.1016/j.carbpol.2021.118754" target="_blank" rel="noopener">Paper ↗</a>
-              <span class="cites" data-doi="10.1016/j.carbpol.2021.118754">Cited by 13</span>
+              <a href="https://doi.org/10.1016/j.ijbiomac.2026.153803" target="_blank" rel="noopener">Paper ↗</a>
+              <span class="cites" data-doi="10.1016/j.ijbiomac.2026.153803">Cited by 1</span>
             </p>
           </div>
         </li>
 
         <li class="pub">
+          <div class="pub-fig">
           <button class="figure-btn pub-img" type="button" data-lightbox
             data-src="assets/img/toc-2019-cellulose-zif8.webp"
             data-title="Graphical abstract · Carbohydrate Polymers (2019)"
@@ -207,10 +238,12 @@
               alt="Graphical abstract of the 2019 Carbohydrate Polymers paper: ZIF-8 / cellulose nanofiber composite membrane in a filtration cell, an SEM image, and absorbance spectra showing selective removal of cationic dye.">
             <span class="zoom mono" aria-hidden="true">Enlarge +</span>
           </button>
+          <span class="fig-tag mono" data-i18n="tag.published">Published figure</span>
+          </div>
           <div class="pub-body">
             <p class="pub-meta mono"><span class="accent">Carbohydrate Polymers</span> · 2019</p>
             <h3><a href="https://doi.org/10.1016/j.carbpol.2019.115018" target="_blank" rel="noopener">Structural control of cellulose nanofibrous composite membrane with metal organic framework (ZIF-8) for highly selective removal of cationic dye</a></h3>
-            <p class="pub-summary">Combining cellulose nanofibers with ZIF-8 controls the membrane structure and enables highly selective removal of cationic dye from water.</p>
+            <p class="pub-summary" data-i18n="feat.zif">Combining cellulose nanofibers with ZIF-8 controls the membrane structure and enables highly selective removal of cationic dye from water.</p>
             <p class="pub-authors"><strong>Y. Song</strong><sup class="role">†</sup>, J. Y. Seo<sup class="role">†</sup>, H. Kim<sup class="role">*</sup>, and K.-Y. Baek<sup class="role">*</sup></p>
             <p class="pub-links mono">
               <a href="https://doi.org/10.1016/j.carbpol.2019.115018" target="_blank" rel="noopener">Paper ↗</a>
@@ -222,36 +255,48 @@
 
       <div class="all-pubs" id="all-publications">
         <div class="all-head">
-          <h3 class="all-title">All publications</h3>
+          <h3 class="all-title" data-i18n="all.title">All publications</h3>
           <div class="all-side">
             <p class="all-links mono"><a href="https://scholar.google.co.kr/citations?user=t_mzCmYAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar ↗</a><a href="https://orcid.org/0000-0001-8236-3793" target="_blank" rel="noopener">ORCID ↗</a></p>
             <p class="cite-stats mono">Citations <b>847</b> · h-index <b>16</b> · i10 <b>19</b></p>
           </div>
         </div>
-        <p class="role-legend mono"><sup class="role">†</sup> First or co-first author &nbsp; <sup class="role">*</sup> Corresponding author &nbsp; · &nbsp; <span class="cite-source">Citation counts from <a href="https://scholar.google.co.kr/citations?user=t_mzCmYAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>, as of Nov 2026.</span></p>
+        <p class="role-legend mono"><sup class="role">†</sup> <span data-i18n="legend.first">First or co-first author</span> &nbsp; <sup class="role">*</sup> <span data-i18n="legend.corr">Corresponding author</span> &nbsp; · &nbsp; <span class="cite-source">Citation counts from <a href="https://scholar.google.co.kr/citations?user=t_mzCmYAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>, as of Nov 2026.</span></p>
+        <div class="pub-filters" role="group" aria-label="Filter publications">
+          <div class="chips">
+            <button type="button" class="chip mono" data-area="all" aria-pressed="true" data-i18n="f.all">All</button>
+            <button type="button" class="chip mono" data-area="polymer" aria-pressed="false" data-i18n="f.polymer">Polymers &amp; 3D printing</button>
+            <button type="button" class="chip mono" data-area="cellulose" aria-pressed="false" data-i18n="f.cellulose">Cellulose &amp; biopolymers</button>
+            <button type="button" class="chip mono" data-area="mof" aria-pressed="false" data-i18n="f.mof">MOFs &amp; membranes</button>
+            <button type="button" class="chip mono" data-area="carbon" aria-pressed="false" data-i18n="f.carbon">Carbon dots</button>
+            <button type="button" class="chip mono" data-area="catal" aria-pressed="false" data-i18n="f.catal">CO₂ &amp; catalysis</button>
+          </div>
+          <label class="first-only mono"><input type="checkbox" data-first-only> <span data-i18n="f.first">First / co-first author only</span></label>
+          <p class="filter-count mono" aria-live="polite"></p>
+        </div>
         <ol class="year-groups">
 <!-- PUBS:START -->
           <li class="year-group">
             <h4 class="year">2026</h4>
             <ol class="year-list">
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/ga-cej-2026-182203.webp" data-title="Architecturally tailored starpolymer catalysts for efficient CO2 cycloaddition at room temperature and atmospheric pressure" data-caption="Chemical Engineering Journal 549, 182203 (2026)" data-credit="Published table-of-contents graphic. Chemical Engineering Journal (2026). Source: Elsevier." data-credit-href="https://doi.org/10.1016/j.cej.2026.182203"><img src="assets/img/ga-cej-2026-182203-600.webp" loading="lazy" alt="Table-of-contents graphic: Architecturally tailored starpolymer catalysts for efficient CO2 cycloaddition at room temperature and atmospheric pressure"></button>
+              <li class="full-pub" data-areas="catal" data-first="0">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/ga-cej-2026-182203.webp" data-title="Architecturally tailored starpolymer catalysts for efficient CO2 cycloaddition at room temperature and atmospheric pressure" data-caption="Chemical Engineering Journal 549, 182203 (2026)" data-credit="Published table-of-contents graphic. Chemical Engineering Journal (2026). Source: Elsevier." data-credit-href="https://doi.org/10.1016/j.cej.2026.182203"><img src="assets/img/ga-cej-2026-182203-600.webp" loading="lazy" alt="Table-of-contents graphic: Architecturally tailored starpolymer catalysts for efficient CO2 cycloaddition at room temperature and atmospheric pressure"></button><span class="fig-tag mono">Published figure</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1016/j.cej.2026.182203" target="_blank" rel="noopener">Architecturally tailored starpolymer catalysts for efficient CO<sub>2</sub> cycloaddition at room temperature and atmospheric pressure</a>
                   <p class="full-authors">S. H. Kim<sup class="role">†</sup>, M. J. Cha, <strong>Y. Song</strong>, K. W. Bong, S. B. Park, H. J. Kim, J. M. Koo, Y. Yamauchi, J. Y. Seo<sup class="role">*</sup>, J. Na<sup class="role">*</sup></p>
                   <p class="full-meta mono"><span class="accent">Chemical Engineering Journal</span> 549, 182203 <span class="cites" data-doi="10.1016/j.cej.2026.182203"></span></p>
                 </div>
               </li>
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2026-natcommun-fig1.webp" data-title="Machine learning guided formulation design of digital light processing printable elastomers beyond viscosity stretchability tradeoff" data-caption="Nature Communications 17, 7167 (2026)" data-credit="Published table-of-contents graphic. Nature Communications (2026). Source: CC BY 4.0, Fig. 1." data-credit-href="https://doi.org/10.1038/s41467-026-73735-4"><img src="assets/img/toc-2026-natcommun-fig1-900.webp" loading="lazy" alt="Table-of-contents graphic: Machine learning guided formulation design of digital light processing printable elastomers beyond viscosity stretchability tradeoff"></button>
+              <li class="full-pub" data-areas="polymer" data-first="1">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2026-natcommun-fig1.webp" data-title="Machine learning guided formulation design of digital light processing printable elastomers beyond viscosity stretchability tradeoff" data-caption="Nature Communications 17, 7167 (2026)" data-credit="Published table-of-contents graphic. Nature Communications (2026). Source: CC BY 4.0, Fig. 1." data-credit-href="https://doi.org/10.1038/s41467-026-73735-4"><img src="assets/img/toc-2026-natcommun-fig1-900.webp" loading="lazy" alt="Table-of-contents graphic: Machine learning guided formulation design of digital light processing printable elastomers beyond viscosity stretchability tradeoff"></button><span class="fig-tag mono">Published figure</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1038/s41467-026-73735-4" target="_blank" rel="noopener">Machine learning guided formulation design of digital light processing printable elastomers beyond viscosity stretchability tradeoff</a>
                   <p class="full-authors"><strong>Y. Song</strong><sup class="role">†</sup>, B. Park<sup class="role">†</sup>, S. Jeon, H. Kweon, S. Lee<sup class="role">*</sup>, J. Na<sup class="role">*</sup></p>
                   <p class="full-meta mono"><span class="accent">Nature Communications</span> 17, 7167 <span class="cites" data-doi="10.1038/s41467-026-73735-4">· Cited by 5</span></p>
                 </div>
               </li>
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2026-j-ijbiomac-2026-153803.webp" data-title="Carboxylate-coordinated TiO2−x in TEMPO-oxidized nanocellulose aerogels for visible-light photocatalysis" data-caption="International Journal of Biological Macromolecules 378, 153803 (2026)" data-credit="Published table-of-contents graphic. International Journal of Biological Macromolecules (2026). Source: Elsevier (original TOC graphic, provided by the author)." data-credit-href="https://doi.org/10.1016/j.ijbiomac.2026.153803"><img src="assets/img/toc-2026-j-ijbiomac-2026-153803-600.webp" loading="lazy" alt="Table-of-contents graphic: Carboxylate-coordinated TiO2−x in TEMPO-oxidized nanocellulose aerogels for visible-light photocatalysis"></button>
+              <li class="full-pub" data-areas="cellulose catal" data-first="1">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2026-j-ijbiomac-2026-153803.webp" data-title="Carboxylate-coordinated TiO2−x in TEMPO-oxidized nanocellulose aerogels for visible-light photocatalysis" data-caption="International Journal of Biological Macromolecules 378, 153803 (2026)" data-credit="Published table-of-contents graphic. International Journal of Biological Macromolecules (2026). Source: Elsevier (original TOC graphic, provided by the author)." data-credit-href="https://doi.org/10.1016/j.ijbiomac.2026.153803"><img src="assets/img/toc-2026-j-ijbiomac-2026-153803-600.webp" loading="lazy" alt="Table-of-contents graphic: Carboxylate-coordinated TiO2−x in TEMPO-oxidized nanocellulose aerogels for visible-light photocatalysis"></button><span class="fig-tag mono">Published figure</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1016/j.ijbiomac.2026.153803" target="_blank" rel="noopener">Carboxylate-coordinated TiO<sub>2−x</sub> in TEMPO-oxidized nanocellulose aerogels for visible-light photocatalysis</a>
                   <p class="full-authors">S. Lee<sup class="role">†</sup>, <strong>Y. Song</strong><sup class="role">†</sup>, H. Park, S. Kim, W.-K. Park, H. Kim<sup class="role">*</sup></p>
@@ -263,24 +308,24 @@
           <li class="year-group">
             <h4 class="year">2025</h4>
             <ol class="year-list">
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/ga-cej-2025-163848.webp" data-title="Mechanically robust and recyclable CO2-derived poly(carbonate) vitrimers: The role of crosslinking density in mechanical and rheological properties" data-caption="Chemical Engineering Journal 516, 163848 (2025)" data-credit="Published table-of-contents graphic. Chemical Engineering Journal (2025). Source: Elsevier." data-credit-href="https://doi.org/10.1016/j.cej.2025.163848"><img src="assets/img/ga-cej-2025-163848-600.webp" loading="lazy" alt="Table-of-contents graphic: Mechanically robust and recyclable CO2-derived poly(carbonate) vitrimers: The role of crosslinking density in mechanical and rheological properties"></button>
+              <li class="full-pub" data-areas="polymer catal" data-first="1">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/ga-cej-2025-163848.webp" data-title="Mechanically robust and recyclable CO2-derived poly(carbonate) vitrimers: The role of crosslinking density in mechanical and rheological properties" data-caption="Chemical Engineering Journal 516, 163848 (2025)" data-credit="Published table-of-contents graphic. Chemical Engineering Journal (2025). Source: Elsevier." data-credit-href="https://doi.org/10.1016/j.cej.2025.163848"><img src="assets/img/ga-cej-2025-163848-600.webp" loading="lazy" alt="Table-of-contents graphic: Mechanically robust and recyclable CO2-derived poly(carbonate) vitrimers: The role of crosslinking density in mechanical and rheological properties"></button><span class="fig-tag mono">Published figure</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1016/j.cej.2025.163848" target="_blank" rel="noopener">Mechanically robust and recyclable CO<sub>2</sub>-derived poly(carbonate) vitrimers: The role of crosslinking density in mechanical and rheological properties</a>
                   <p class="full-authors">J. Hwang<sup class="role">†</sup>, <strong>Y. Song</strong><sup class="role">†</sup>, H. Hwang, S. Kim, H. Kim, K. W. Bong, H. Jeon, C. H. Park, J. Na<sup class="role">*</sup>, J. Y. Seo<sup class="role">*</sup></p>
                   <p class="full-meta mono"><span class="accent">Chemical Engineering Journal</span> 516, 163848 <span class="cites" data-doi="10.1016/j.cej.2025.163848">· Cited by 5</span></p>
                 </div>
               </li>
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2025-cssc-202401968.webp" data-title="Multifunctional and Hierarchical Porous ZIF-8: Amine and Thiol Tagged via Mixed Multivariate Ligand Strategies for Enhanced CO2 and Iodine Adsorption" data-caption="ChemSusChem 18, e202401968 (2025)" data-credit="Published table-of-contents graphic. ChemSusChem (2025). Source: Wiley (original TOC graphic, provided by the author)." data-credit-href="https://doi.org/10.1002/cssc.202401968"><img src="assets/img/toc-2025-cssc-202401968-600.webp" loading="lazy" alt="Table-of-contents graphic: Multifunctional and Hierarchical Porous ZIF-8: Amine and Thiol Tagged via Mixed Multivariate Ligand Strategies for Enhanced CO2 and Iodine Adsorption"></button>
+              <li class="full-pub" data-areas="mof catal" data-first="0">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2025-cssc-202401968.webp" data-title="Multifunctional and Hierarchical Porous ZIF-8: Amine and Thiol Tagged via Mixed Multivariate Ligand Strategies for Enhanced CO2 and Iodine Adsorption" data-caption="ChemSusChem 18, e202401968 (2025)" data-credit="Published table-of-contents graphic. ChemSusChem (2025). Source: Wiley (original TOC graphic, provided by the author)." data-credit-href="https://doi.org/10.1002/cssc.202401968"><img src="assets/img/toc-2025-cssc-202401968-600.webp" loading="lazy" alt="Table-of-contents graphic: Multifunctional and Hierarchical Porous ZIF-8: Amine and Thiol Tagged via Mixed Multivariate Ligand Strategies for Enhanced CO2 and Iodine Adsorption"></button><span class="fig-tag mono">Published figure</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1002/cssc.202401968" target="_blank" rel="noopener">Multifunctional and Hierarchical Porous ZIF-8: Amine and Thiol Tagged via Mixed Multivariate Ligand Strategies for Enhanced CO<sub>2</sub> and Iodine Adsorption</a>
                   <p class="full-authors">Q. T. Nguyen<sup class="role">†</sup>, J. Y. Lee, Y. Bae, Y. Lee, <strong>Y. Song</strong>, S. H. Kim, K. Baek<sup class="role">*</sup>, J. Na<sup class="role">*</sup></p>
                   <p class="full-meta mono"><span class="accent">ChemSusChem</span> 18, e202401968 <span class="cites" data-doi="10.1002/cssc.202401968">· Cited by 16</span></p>
                 </div>
               </li>
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/ga-carbpol-2025-122685.webp" data-title="Quaternarized chitosan nanofiber and ZIF aerogel composites for synergetic CO2 cycloaddition catalysis" data-caption="Carbohydrate Polymers 347, 122685 (2025)" data-credit="Published table-of-contents graphic. Carbohydrate Polymers (2025). Source: Elsevier." data-credit-href="https://doi.org/10.1016/j.carbpol.2024.122685"><img src="assets/img/ga-carbpol-2025-122685-600.webp" loading="lazy" alt="Table-of-contents graphic: Quaternarized chitosan nanofiber and ZIF aerogel composites for synergetic CO2 cycloaddition catalysis"></button>
+              <li class="full-pub" data-areas="cellulose mof catal" data-first="1">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/ga-carbpol-2025-122685.webp" data-title="Quaternarized chitosan nanofiber and ZIF aerogel composites for synergetic CO2 cycloaddition catalysis" data-caption="Carbohydrate Polymers 347, 122685 (2025)" data-credit="Published table-of-contents graphic. Carbohydrate Polymers (2025). Source: Elsevier." data-credit-href="https://doi.org/10.1016/j.carbpol.2024.122685"><img src="assets/img/ga-carbpol-2025-122685-600.webp" loading="lazy" alt="Table-of-contents graphic: Quaternarized chitosan nanofiber and ZIF aerogel composites for synergetic CO2 cycloaddition catalysis"></button><span class="fig-tag mono">Published figure</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1016/j.carbpol.2024.122685" target="_blank" rel="noopener">Quaternarized chitosan nanofiber and ZIF aerogel composites for synergetic CO<sub>2</sub> cycloaddition catalysis</a>
                   <p class="full-authors">D. B. Jung<sup class="role">†</sup>, <strong>Y. Song</strong><sup class="role">†</sup>, Y.-R. Lee, M. J. Cha, K. Jeong, J. Choi<sup class="role">*</sup>, J. Na<sup class="role">*</sup>, J. Y. Seo<sup class="role">*</sup>, K.-Y. Baek</p>
@@ -292,16 +337,16 @@
           <li class="year-group">
             <h4 class="year">2024</h4>
             <ol class="year-list">
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/ga-carbpol-2024-121489.webp" data-title="Robust and highly reactive membranes for continuous disposal of chemical warfare agents: Effects of nanostructure and functionality in MOF and nanochitin aerogel composites" data-caption="Carbohydrate Polymers 324, 121489 (2024)" data-credit="Published table-of-contents graphic. Carbohydrate Polymers (2024). Source: Elsevier." data-credit-href="https://doi.org/10.1016/j.carbpol.2023.121489"><img src="assets/img/ga-carbpol-2024-121489-600.webp" loading="lazy" alt="Table-of-contents graphic: Robust and highly reactive membranes for continuous disposal of chemical warfare agents: Effects of nanostructure and functionality in MOF and nanochitin aerogel composites"></button>
+              <li class="full-pub" data-areas="cellulose mof" data-first="1">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/ga-carbpol-2024-121489.webp" data-title="Robust and highly reactive membranes for continuous disposal of chemical warfare agents: Effects of nanostructure and functionality in MOF and nanochitin aerogel composites" data-caption="Carbohydrate Polymers 324, 121489 (2024)" data-credit="Published table-of-contents graphic. Carbohydrate Polymers (2024). Source: Elsevier." data-credit-href="https://doi.org/10.1016/j.carbpol.2023.121489"><img src="assets/img/ga-carbpol-2024-121489-600.webp" loading="lazy" alt="Table-of-contents graphic: Robust and highly reactive membranes for continuous disposal of chemical warfare agents: Effects of nanostructure and functionality in MOF and nanochitin aerogel composites"></button><span class="fig-tag mono">Published figure</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1016/j.carbpol.2023.121489" target="_blank" rel="noopener">Robust and highly reactive membranes for continuous disposal of chemical warfare agents: Effects of nanostructure and functionality in MOF and nanochitin aerogel composites</a>
                   <p class="full-authors">J. Y. Seo<sup class="role">†</sup>, <strong>Y. Song</strong><sup class="role">†</sup>, J.-H. Lee, J. Na, K.-Y. Baek<sup class="role">*</sup></p>
                   <p class="full-meta mono"><span class="accent">Carbohydrate Polymers</span> 324, 121489 <span class="cites" data-doi="10.1016/j.carbpol.2023.121489">· Cited by 17</span></p>
                 </div>
               </li>
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2024-j-cej-2024-154352.webp" data-title="Sulfate radicals-based advanced oxidation process (SR-AOPs): The future enabled by MOFs-based nanofibers" data-caption="Chemical Engineering Journal 496, 154352 (2024)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1016/j.cej.2024.154352"><img src="assets/img/toc-2024-j-cej-2024-154352-600.webp" loading="lazy" alt="Table-of-contents graphic: Sulfate radicals-based advanced oxidation process (SR-AOPs): The future enabled by MOFs-based nanofibers"></button>
+              <li class="full-pub" data-areas="mof catal" data-first="0">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2024-j-cej-2024-154352.webp" data-title="Sulfate radicals-based advanced oxidation process (SR-AOPs): The future enabled by MOFs-based nanofibers" data-caption="Chemical Engineering Journal 496, 154352 (2024)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1016/j.cej.2024.154352"><img src="assets/img/toc-2024-j-cej-2024-154352-600.webp" loading="lazy" alt="Table-of-contents graphic: Sulfate radicals-based advanced oxidation process (SR-AOPs): The future enabled by MOFs-based nanofibers"></button><span class="fig-tag mono">Research illustration</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1016/j.cej.2024.154352" target="_blank" rel="noopener">Sulfate radicals-based advanced oxidation process (SR-AOPs): The future enabled by MOFs-based nanofibers</a>
                   <p class="full-authors">C. Wang<sup class="role">†</sup>, S. Ren, T. Cao, J. Wang, R. Peng, Z. Lv, X. Zhu, <strong>Y. Song</strong>, J. Na<sup class="role">*</sup>, Y. Mao<sup class="role">*</sup></p>
@@ -313,8 +358,8 @@
           <li class="year-group">
             <h4 class="year">2023</h4>
             <ol class="year-list">
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/ga-polymer-2023.webp" data-title="Interplay of photopolymerization and phase separation kinetics and the resulting structure-property relationship of photocurable resins" data-caption="Polymer 280, 126032 (2023)" data-credit="Published table-of-contents graphic. Polymer (2023). Source: Elsevier." data-credit-href="https://doi.org/10.1016/j.polymer.2023.126032"><img src="assets/img/ga-polymer-2023-600.webp" loading="lazy" alt="Table-of-contents graphic: Interplay of photopolymerization and phase separation kinetics and the resulting structure-property relationship of photocurable resins"></button>
+              <li class="full-pub" data-areas="polymer" data-first="0">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/ga-polymer-2023.webp" data-title="Interplay of photopolymerization and phase separation kinetics and the resulting structure-property relationship of photocurable resins" data-caption="Polymer 280, 126032 (2023)" data-credit="Published table-of-contents graphic. Polymer (2023). Source: Elsevier." data-credit-href="https://doi.org/10.1016/j.polymer.2023.126032"><img src="assets/img/ga-polymer-2023-600.webp" loading="lazy" alt="Table-of-contents graphic: Interplay of photopolymerization and phase separation kinetics and the resulting structure-property relationship of photocurable resins"></button><span class="fig-tag mono">Published figure</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1016/j.polymer.2023.126032" target="_blank" rel="noopener">Interplay of photopolymerization and phase separation kinetics and the resulting structure-property relationship of photocurable resins</a>
                   <p class="full-authors">L. Zakrzewski<sup class="role">†</sup>, Y. Kim, <strong>Y. Song</strong>, C. Y. Ryu<sup class="role">*</sup>, C. Bae<sup class="role">*</sup>, C. R. Picu<sup class="role">*</sup></p>
@@ -326,8 +371,8 @@
           <li class="year-group">
             <h4 class="year">2022</h4>
             <ol class="year-list">
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2022-chitin-zif8.webp" data-title="Pore-size control of chitin nanofibrous composite membrane using metal-organic frameworks" data-caption="Carbohydrate Polymers 275, 118754 (2022)" data-credit="Published table-of-contents graphic. Carbohydrate Polymers (2022). Source: Elsevier." data-credit-href="https://doi.org/10.1016/j.carbpol.2021.118754"><img src="assets/img/toc-2022-chitin-zif8-900.webp" loading="lazy" alt="Table-of-contents graphic: Pore-size control of chitin nanofibrous composite membrane using metal-organic frameworks"></button>
+              <li class="full-pub" data-areas="cellulose mof" data-first="1">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2022-chitin-zif8.webp" data-title="Pore-size control of chitin nanofibrous composite membrane using metal-organic frameworks" data-caption="Carbohydrate Polymers 275, 118754 (2022)" data-credit="Published table-of-contents graphic. Carbohydrate Polymers (2022). Source: Elsevier." data-credit-href="https://doi.org/10.1016/j.carbpol.2021.118754"><img src="assets/img/toc-2022-chitin-zif8-900.webp" loading="lazy" alt="Table-of-contents graphic: Pore-size control of chitin nanofibrous composite membrane using metal-organic frameworks"></button><span class="fig-tag mono">Published figure</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1016/j.carbpol.2021.118754" target="_blank" rel="noopener">Pore-size control of chitin nanofibrous composite membrane using metal-organic frameworks</a>
                   <p class="full-authors"><strong>Y. Song</strong><sup class="role">†</sup>, J. Y. Seo<sup class="role">†</sup>, H. Kim, S. Cho<sup class="role">*</sup>, K.-Y. Baek<sup class="role">*</sup></p>
@@ -339,24 +384,24 @@
           <li class="year-group">
             <h4 class="year">2021</h4>
             <ol class="year-list">
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/ga-cellulose-2021.webp" data-title="Rheological interpretation of intermediate physical state of gel and liquid crystalline phases in cellulose solution and their synergetic effects on the mechanical property" data-caption="Cellulose 28, 10863–10874 (2021)" data-credit="Published table-of-contents graphic. Cellulose (2021). Source: Springer Nature." data-credit-href="https://doi.org/10.1007/s10570-021-04209-7"><img src="assets/img/ga-cellulose-2021-600.webp" loading="lazy" alt="Table-of-contents graphic: Rheological interpretation of intermediate physical state of gel and liquid crystalline phases in cellulose solution and their synergetic effects on the mechanical property"></button>
+              <li class="full-pub" data-areas="cellulose" data-first="0">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/ga-cellulose-2021.webp" data-title="Rheological interpretation of intermediate physical state of gel and liquid crystalline phases in cellulose solution and their synergetic effects on the mechanical property" data-caption="Cellulose 28, 10863–10874 (2021)" data-credit="Published table-of-contents graphic. Cellulose (2021). Source: Springer Nature." data-credit-href="https://doi.org/10.1007/s10570-021-04209-7"><img src="assets/img/ga-cellulose-2021-600.webp" loading="lazy" alt="Table-of-contents graphic: Rheological interpretation of intermediate physical state of gel and liquid crystalline phases in cellulose solution and their synergetic effects on the mechanical property"></button><span class="fig-tag mono">Published figure</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1007/s10570-021-04209-7" target="_blank" rel="noopener">Rheological interpretation of intermediate physical state of gel and liquid crystalline phases in cellulose solution and their synergetic effects on the mechanical property</a>
                   <p class="full-authors">T. Kim<sup class="role">†</sup>, <strong>Y. Song</strong>, J. Ahn, M. Kim, E. Ko, H. Kim<sup class="role">*</sup></p>
                   <p class="full-meta mono"><span class="accent">Cellulose</span> 28, 10863–10874 <span class="cites" data-doi="10.1007/s10570-021-04209-7">· Cited by 8</span></p>
                 </div>
               </li>
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/ga-carbpol-2021-117387.webp" data-title="In-situ synthesis of carbon dot at cellulose nanofiber for durable water treatment membrane with high selectivity" data-caption="Carbohydrate Polymers 255, 117387 (2021)" data-credit="Published table-of-contents graphic. Carbohydrate Polymers (2021). Source: Elsevier." data-credit-href="https://doi.org/10.1016/j.carbpol.2020.117387"><img src="assets/img/ga-carbpol-2021-117387-600.webp" loading="lazy" alt="Table-of-contents graphic: In-situ synthesis of carbon dot at cellulose nanofiber for durable water treatment membrane with high selectivity"></button>
+              <li class="full-pub" data-areas="cellulose mof carbon" data-first="0">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/ga-carbpol-2021-117387.webp" data-title="In-situ synthesis of carbon dot at cellulose nanofiber for durable water treatment membrane with high selectivity" data-caption="Carbohydrate Polymers 255, 117387 (2021)" data-credit="Published table-of-contents graphic. Carbohydrate Polymers (2021). Source: Elsevier." data-credit-href="https://doi.org/10.1016/j.carbpol.2020.117387"><img src="assets/img/ga-carbpol-2021-117387-600.webp" loading="lazy" alt="Table-of-contents graphic: In-situ synthesis of carbon dot at cellulose nanofiber for durable water treatment membrane with high selectivity"></button><span class="fig-tag mono">Published figure</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1016/j.carbpol.2020.117387" target="_blank" rel="noopener">In-situ synthesis of carbon dot at cellulose nanofiber for durable water treatment membrane with high selectivity</a>
                   <p class="full-authors">J. Ahn<sup class="role">†</sup>, S. Pak, <strong>Y. Song</strong>, H. Kim<sup class="role">*</sup></p>
                   <p class="full-meta mono"><span class="accent">Carbohydrate Polymers</span> 255, 117387 <span class="cites" data-doi="10.1016/j.carbpol.2020.117387">· Cited by 57</span></p>
                 </div>
               </li>
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2021-acsami-1c08138.webp" data-title="Robust Nanocellulose/Metal–Organic Framework Aerogel Composites: Superior Performance for Static and Continuous Disposal of Chemical Warfare Agent Simulants" data-caption="ACS Applied Materials &amp; Interfaces 13, 33516–33523 (2021)" data-credit="Published table-of-contents graphic. ACS Applied Materials &amp;amp; Interfaces (2021). Source: American Chemical Society (original TOC graphic, provided by the author)." data-credit-href="https://doi.org/10.1021/acsami.1c08138"><img src="assets/img/toc-2021-acsami-1c08138-600.webp" loading="lazy" alt="Table-of-contents graphic: Robust Nanocellulose/Metal–Organic Framework Aerogel Composites: Superior Performance for Static and Continuous Disposal of Chemical Warfare Agent Simulants"></button>
+              <li class="full-pub" data-areas="cellulose mof" data-first="1">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2021-acsami-1c08138.webp" data-title="Robust Nanocellulose/Metal–Organic Framework Aerogel Composites: Superior Performance for Static and Continuous Disposal of Chemical Warfare Agent Simulants" data-caption="ACS Applied Materials &amp; Interfaces 13, 33516–33523 (2021)" data-credit="Published table-of-contents graphic. ACS Applied Materials &amp;amp; Interfaces (2021). Source: American Chemical Society (original TOC graphic, provided by the author)." data-credit-href="https://doi.org/10.1021/acsami.1c08138"><img src="assets/img/toc-2021-acsami-1c08138-600.webp" loading="lazy" alt="Table-of-contents graphic: Robust Nanocellulose/Metal–Organic Framework Aerogel Composites: Superior Performance for Static and Continuous Disposal of Chemical Warfare Agent Simulants"></button><span class="fig-tag mono">Published figure</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1021/acsami.1c08138" target="_blank" rel="noopener">Robust Nanocellulose/Metal–Organic Framework Aerogel Composites: Superior Performance for Static and Continuous Disposal of Chemical Warfare Agent Simulants</a>
                   <p class="full-authors">J. Y. Seo<sup class="role">†</sup>, <strong>Y. Song</strong><sup class="role">†</sup>, J.-H. Lee, H. Kim, S. Cho, K.-Y. Baek<sup class="role">*</sup></p>
@@ -368,24 +413,24 @@
           <li class="year-group">
             <h4 class="year">2020</h4>
             <ol class="year-list">
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2020-tse-2020-57-192.webp" data-title="Preparation of Melt-blending Polylactic Acid/Halloysite Nanotube Composite Films for Improvement of Tearing Strength" data-caption="Textile Science and Engineering 57, 192–198 (2020)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.12772/TSE.2020.57.192"><img src="assets/img/toc-2020-tse-2020-57-192-600.webp" loading="lazy" alt="Table-of-contents graphic: Preparation of Melt-blending Polylactic Acid/Halloysite Nanotube Composite Films for Improvement of Tearing Strength"></button>
+              <li class="full-pub" data-areas="polymer" data-first="0">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2020-tse-2020-57-192.webp" data-title="Preparation of Melt-blending Polylactic Acid/Halloysite Nanotube Composite Films for Improvement of Tearing Strength" data-caption="Textile Science and Engineering 57, 192–198 (2020)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.12772/TSE.2020.57.192"><img src="assets/img/toc-2020-tse-2020-57-192-600.webp" loading="lazy" alt="Table-of-contents graphic: Preparation of Melt-blending Polylactic Acid/Halloysite Nanotube Composite Films for Improvement of Tearing Strength"></button><span class="fig-tag mono">Research illustration</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.12772/TSE.2020.57.192" target="_blank" rel="noopener">Preparation of Melt-blending Polylactic Acid/Halloysite Nanotube Composite Films for Improvement of Tearing Strength</a>
                   <p class="full-authors">T. Kim<sup class="role">†</sup>, E. Ko, <strong>Y. Song</strong>, J. Ahn, S. Park, S. Park, M. Kim, H. Kim<sup class="role">*</sup></p>
                   <p class="full-meta mono"><span class="accent">Textile Science and Engineering</span> 57, 192–198 <span class="cites" data-doi="10.12772/tse.2020.57.192"></span></p>
                 </div>
               </li>
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/ga-cellulose-2020.webp" data-title="Green one-pot preparation of carbon dots (CD)-embedded cellulose transparent film for Fe3+ indicator using ionic liquid" data-caption="Cellulose 27, 4609–4621 (2020)" data-credit="Published table-of-contents graphic. Cellulose (2020). Source: Springer Nature." data-credit-href="https://doi.org/10.1007/s10570-020-03099-5"><img src="assets/img/ga-cellulose-2020-600.webp" loading="lazy" alt="Table-of-contents graphic: Green one-pot preparation of carbon dots (CD)-embedded cellulose transparent film for Fe3+ indicator using ionic liquid"></button>
+              <li class="full-pub" data-areas="cellulose carbon" data-first="1">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/ga-cellulose-2020.webp" data-title="Green one-pot preparation of carbon dots (CD)-embedded cellulose transparent film for Fe3+ indicator using ionic liquid" data-caption="Cellulose 27, 4609–4621 (2020)" data-credit="Published table-of-contents graphic. Cellulose (2020). Source: Springer Nature." data-credit-href="https://doi.org/10.1007/s10570-020-03099-5"><img src="assets/img/ga-cellulose-2020-600.webp" loading="lazy" alt="Table-of-contents graphic: Green one-pot preparation of carbon dots (CD)-embedded cellulose transparent film for Fe3+ indicator using ionic liquid"></button><span class="fig-tag mono">Published figure</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1007/s10570-020-03099-5" target="_blank" rel="noopener">Green one-pot preparation of carbon dots (CD)-embedded cellulose transparent film for Fe<sup>3+</sup> indicator using ionic liquid</a>
                   <p class="full-authors">J. Woo<sup class="role">†</sup>, <strong>Y. Song</strong><sup class="role">†</sup>, J. Ahn, H. Kim<sup class="role">*</sup></p>
                   <p class="full-meta mono"><span class="accent">Cellulose</span> 27, 4609–4621 <span class="cites" data-doi="10.1007/s10570-020-03099-5">· Cited by 52</span></p>
                 </div>
               </li>
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2020-s12221-020-9934-4.webp" data-title="Preparation of Carbon Dots from Cellulose Using Ionic Liquid under Mild Condition" data-caption="Fibers and Polymers 21, 1643–1648 (2020)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1007/s12221-020-9934-4"><img src="assets/img/toc-2020-s12221-020-9934-4-600.webp" loading="lazy" alt="Table-of-contents graphic: Preparation of Carbon Dots from Cellulose Using Ionic Liquid under Mild Condition"></button>
+              <li class="full-pub" data-areas="cellulose carbon" data-first="0">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2020-s12221-020-9934-4.webp" data-title="Preparation of Carbon Dots from Cellulose Using Ionic Liquid under Mild Condition" data-caption="Fibers and Polymers 21, 1643–1648 (2020)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1007/s12221-020-9934-4"><img src="assets/img/toc-2020-s12221-020-9934-4-600.webp" loading="lazy" alt="Table-of-contents graphic: Preparation of Carbon Dots from Cellulose Using Ionic Liquid under Mild Condition"></button><span class="fig-tag mono">Research illustration</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1007/s12221-020-9934-4" target="_blank" rel="noopener">Preparation of Carbon Dots from Cellulose Using Ionic Liquid under Mild Condition</a>
                   <p class="full-authors">J. Woo<sup class="role">†</sup>, H. Kim<sup class="role">†</sup>, <strong>Y. Song</strong><sup class="role">*</sup></p>
@@ -397,40 +442,40 @@
           <li class="year-group">
             <h4 class="year">2019</h4>
             <ol class="year-list">
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2019-pk-2019-43-6-958.webp" data-title="Effect of Crystallinity and Thermal Stability of Nanostructured Cellulose/Halloysite Nanotube Composites" data-caption="Polymer Korea 43, 958–964 (2019)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.7317/pk.2019.43.6.958"><img src="assets/img/toc-2019-pk-2019-43-6-958-600.webp" loading="lazy" alt="Table-of-contents graphic: Effect of Crystallinity and Thermal Stability of Nanostructured Cellulose/Halloysite Nanotube Composites"></button>
+              <li class="full-pub" data-areas="cellulose" data-first="1">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2019-pk-2019-43-6-958.webp" data-title="Effect of Crystallinity and Thermal Stability of Nanostructured Cellulose/Halloysite Nanotube Composites" data-caption="Polymer Korea 43, 958–964 (2019)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.7317/pk.2019.43.6.958"><img src="assets/img/toc-2019-pk-2019-43-6-958-600.webp" loading="lazy" alt="Table-of-contents graphic: Effect of Crystallinity and Thermal Stability of Nanostructured Cellulose/Halloysite Nanotube Composites"></button><span class="fig-tag mono">Research illustration</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.7317/pk.2019.43.6.958" target="_blank" rel="noopener">Effect of Crystallinity and Thermal Stability of Nanostructured Cellulose/Halloysite Nanotube Composites</a>
                   <p class="full-authors"><strong>Y. Song</strong><sup class="role">†</sup>, Y. Kim, H. Kim<sup class="role">*</sup></p>
                   <p class="full-meta mono"><span class="accent">Polymer Korea</span> 43, 958–964 <span class="cites" data-doi="10.7317/pk.2019.43.6.958">· Cited by 2</span></p>
                 </div>
               </li>
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2019-j-dib-2019-104038.webp" data-title="Characterization of food waste-driven carbon dot focusing on chemical structural, electron relaxation behavior and Fe3+ selective sensing" data-caption="Data in Brief 25, 104038 (2019)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1016/j.dib.2019.104038"><img src="assets/img/toc-2019-j-dib-2019-104038-600.webp" loading="lazy" alt="Table-of-contents graphic: Characterization of food waste-driven carbon dot focusing on chemical structural, electron relaxation behavior and Fe3+ selective sensing"></button>
+              <li class="full-pub" data-areas="carbon" data-first="1">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2019-j-dib-2019-104038.webp" data-title="Characterization of food waste-driven carbon dot focusing on chemical structural, electron relaxation behavior and Fe3+ selective sensing" data-caption="Data in Brief 25, 104038 (2019)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1016/j.dib.2019.104038"><img src="assets/img/toc-2019-j-dib-2019-104038-600.webp" loading="lazy" alt="Table-of-contents graphic: Characterization of food waste-driven carbon dot focusing on chemical structural, electron relaxation behavior and Fe3+ selective sensing"></button><span class="fig-tag mono">Research illustration</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1016/j.dib.2019.104038" target="_blank" rel="noopener">Characterization of food waste-driven carbon dot focusing on chemical structural, electron relaxation behavior and Fe<sup>3+</sup> selective sensing</a>
                   <p class="full-authors">J. Ahn<sup class="role">†</sup>, <strong>Y. Song</strong><sup class="role">†</sup>, J. E. Kwon, J. Woo, H. Kim<sup class="role">*</sup></p>
                   <p class="full-meta mono"><span class="accent">Data in Brief</span> 25, 104038 <span class="cites" data-doi="10.1016/j.dib.2019.104038">· Cited by 44</span></p>
                 </div>
               </li>
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2019-s12221-019-1038-7.webp" data-title="Preparation of Eco-Friendly Transparent Electrode for Flexible Device Using Cellulose Substrate" data-caption="Fibers and Polymers 20, 466–471 (2019)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1007/s12221-019-1038-7"><img src="assets/img/toc-2019-s12221-019-1038-7-600.webp" loading="lazy" alt="Table-of-contents graphic: Preparation of Eco-Friendly Transparent Electrode for Flexible Device Using Cellulose Substrate"></button>
+              <li class="full-pub" data-areas="cellulose" data-first="0">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2019-s12221-019-1038-7.webp" data-title="Preparation of Eco-Friendly Transparent Electrode for Flexible Device Using Cellulose Substrate" data-caption="Fibers and Polymers 20, 466–471 (2019)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1007/s12221-019-1038-7"><img src="assets/img/toc-2019-s12221-019-1038-7-600.webp" loading="lazy" alt="Table-of-contents graphic: Preparation of Eco-Friendly Transparent Electrode for Flexible Device Using Cellulose Substrate"></button><span class="fig-tag mono">Research illustration</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1007/s12221-019-1038-7" target="_blank" rel="noopener">Preparation of Eco-Friendly Transparent Electrode for Flexible Device Using Cellulose Substrate</a>
                   <p class="full-authors">Y. Kim<sup class="role">†</sup>, <strong>Y. Song</strong>, H. Kim<sup class="role">*</sup></p>
                   <p class="full-meta mono"><span class="accent">Fibers and Polymers</span> 20, 466–471 <span class="cites" data-doi="10.1007/s12221-019-1038-7">· Cited by 5</span></p>
                 </div>
               </li>
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/ga-msec-2019.webp" data-title="Food waste-driven N-doped carbon dots: Applications for Fe3+ sensing and cell imaging" data-caption="Materials Science and Engineering: C 102, 106–112 (2019)" data-credit="Published table-of-contents graphic. Materials Science and Engineering: C (2019). Source: Elsevier." data-credit-href="https://doi.org/10.1016/j.msec.2019.04.019"><img src="assets/img/ga-msec-2019-600.webp" loading="lazy" alt="Table-of-contents graphic: Food waste-driven N-doped carbon dots: Applications for Fe3+ sensing and cell imaging"></button>
+              <li class="full-pub" data-areas="carbon" data-first="1">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/ga-msec-2019.webp" data-title="Food waste-driven N-doped carbon dots: Applications for Fe3+ sensing and cell imaging" data-caption="Materials Science and Engineering: C 102, 106–112 (2019)" data-credit="Published table-of-contents graphic. Materials Science and Engineering: C (2019). Source: Elsevier." data-credit-href="https://doi.org/10.1016/j.msec.2019.04.019"><img src="assets/img/ga-msec-2019-600.webp" loading="lazy" alt="Table-of-contents graphic: Food waste-driven N-doped carbon dots: Applications for Fe3+ sensing and cell imaging"></button><span class="fig-tag mono">Published figure</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1016/j.msec.2019.04.019" target="_blank" rel="noopener">Food waste-driven N-doped carbon dots: Applications for Fe<sup>3+</sup> sensing and cell imaging</a>
                   <p class="full-authors">J. Ahn<sup class="role">†</sup>, <strong>Y. Song</strong><sup class="role">†</sup>, J. E. Kwon, S. H. Lee, K. S. Park, S. Kim, J. Woo, H. Kim<sup class="role">*</sup></p>
                   <p class="full-meta mono"><span class="accent">Materials Science and Engineering: C</span> 102, 106–112 <span class="cites" data-doi="10.1016/j.msec.2019.04.019">· Cited by 154</span></p>
                 </div>
               </li>
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2019-cellulose-zif8.webp" data-title="Structural control of cellulose nanofibrous composite membrane with metal organic framework (ZIF-8) for highly selective removal of cationic dye" data-caption="Carbohydrate Polymers 222, 115018 (2019)" data-credit="Published table-of-contents graphic. Carbohydrate Polymers (2019). Source: Elsevier." data-credit-href="https://doi.org/10.1016/j.carbpol.2019.115018"><img src="assets/img/toc-2019-cellulose-zif8-900.webp" loading="lazy" alt="Table-of-contents graphic: Structural control of cellulose nanofibrous composite membrane with metal organic framework (ZIF-8) for highly selective removal of cationic dye"></button>
+              <li class="full-pub" data-areas="cellulose mof" data-first="1">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2019-cellulose-zif8.webp" data-title="Structural control of cellulose nanofibrous composite membrane with metal organic framework (ZIF-8) for highly selective removal of cationic dye" data-caption="Carbohydrate Polymers 222, 115018 (2019)" data-credit="Published table-of-contents graphic. Carbohydrate Polymers (2019). Source: Elsevier." data-credit-href="https://doi.org/10.1016/j.carbpol.2019.115018"><img src="assets/img/toc-2019-cellulose-zif8-900.webp" loading="lazy" alt="Table-of-contents graphic: Structural control of cellulose nanofibrous composite membrane with metal organic framework (ZIF-8) for highly selective removal of cationic dye"></button><span class="fig-tag mono">Published figure</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1016/j.carbpol.2019.115018" target="_blank" rel="noopener">Structural control of cellulose nanofibrous composite membrane with metal organic framework (ZIF-8) for highly selective removal of cationic dye</a>
                   <p class="full-authors"><strong>Y. Song</strong><sup class="role">†</sup>, J. Y. Seo<sup class="role">†</sup>, H. Kim<sup class="role">*</sup>, K.-Y. Baek<sup class="role">*</sup></p>
@@ -442,8 +487,8 @@
           <li class="year-group">
             <h4 class="year">2018</h4>
             <ol class="year-list">
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2018-s10570-017-1625-y.webp" data-title="Preparation of transparent cellulose film with controlled haze using halloysite nanotubes" data-caption="Cellulose 25, 1239–1248 (2018)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1007/s10570-017-1625-y"><img src="assets/img/toc-2018-s10570-017-1625-y-600.webp" loading="lazy" alt="Table-of-contents graphic: Preparation of transparent cellulose film with controlled haze using halloysite nanotubes"></button>
+              <li class="full-pub" data-areas="cellulose" data-first="1">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2018-s10570-017-1625-y.webp" data-title="Preparation of transparent cellulose film with controlled haze using halloysite nanotubes" data-caption="Cellulose 25, 1239–1248 (2018)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1007/s10570-017-1625-y"><img src="assets/img/toc-2018-s10570-017-1625-y-600.webp" loading="lazy" alt="Table-of-contents graphic: Preparation of transparent cellulose film with controlled haze using halloysite nanotubes"></button><span class="fig-tag mono">Research illustration</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1007/s10570-017-1625-y" target="_blank" rel="noopener">Preparation of transparent cellulose film with controlled haze using halloysite nanotubes</a>
                   <p class="full-authors">Y. Kim<sup class="role">†</sup>, <strong>Y. Song</strong><sup class="role">†</sup>, H. Kim<sup class="role">*</sup></p>
@@ -455,32 +500,32 @@
           <li class="year-group">
             <h4 class="year">2017</h4>
             <ol class="year-list">
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2017-tse-2017-54-017.webp" data-title="Hydrothermal Carbonization and Characterization of Glucose in the Presence of a Copper Catalyst" data-caption="Textile Science and Engineering 54, 17–21 (2017)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.12772/tse.2017.54.017"><img src="assets/img/toc-2017-tse-2017-54-017-600.webp" loading="lazy" alt="Table-of-contents graphic: Hydrothermal Carbonization and Characterization of Glucose in the Presence of a Copper Catalyst"></button>
+              <li class="full-pub" data-areas="carbon" data-first="1">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2017-tse-2017-54-017.webp" data-title="Hydrothermal Carbonization and Characterization of Glucose in the Presence of a Copper Catalyst" data-caption="Textile Science and Engineering 54, 17–21 (2017)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.12772/tse.2017.54.017"><img src="assets/img/toc-2017-tse-2017-54-017-600.webp" loading="lazy" alt="Table-of-contents graphic: Hydrothermal Carbonization and Characterization of Glucose in the Presence of a Copper Catalyst"></button><span class="fig-tag mono">Research illustration</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.12772/tse.2017.54.017" target="_blank" rel="noopener">Hydrothermal Carbonization and Characterization of Glucose in the Presence of a Copper Catalyst</a>
                   <p class="full-authors"><strong>Y. Song</strong><sup class="role">†</sup>, C. Kim, H. Kim<sup class="role">*</sup></p>
                   <p class="full-meta mono"><span class="accent">Textile Science and Engineering</span> 54, 17–21 <span class="cites" data-doi="10.12772/tse.2017.54.017">· Cited by 1</span></p>
                 </div>
               </li>
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2017-acsmacrolett-7b00307.webp" data-title="In Situ Formation of Autodispersing Cellulose Nanoparticles with Extreme Uniformity" data-caption="ACS Macro Letters 6, 762–767 (2017)" data-credit="Published table-of-contents graphic. ACS Macro Letters (2017). Source: American Chemical Society (original TOC graphic, provided by the author)." data-credit-href="https://doi.org/10.1021/acsmacrolett.7b00307"><img src="assets/img/toc-2017-acsmacrolett-7b00307-600.webp" loading="lazy" alt="Table-of-contents graphic: In Situ Formation of Autodispersing Cellulose Nanoparticles with Extreme Uniformity"></button>
+              <li class="full-pub" data-areas="cellulose" data-first="0">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2017-acsmacrolett-7b00307.webp" data-title="In Situ Formation of Autodispersing Cellulose Nanoparticles with Extreme Uniformity" data-caption="ACS Macro Letters 6, 762–767 (2017)" data-credit="Published table-of-contents graphic. ACS Macro Letters (2017). Source: American Chemical Society (original TOC graphic, provided by the author)." data-credit-href="https://doi.org/10.1021/acsmacrolett.7b00307"><img src="assets/img/toc-2017-acsmacrolett-7b00307-600.webp" loading="lazy" alt="Table-of-contents graphic: In Situ Formation of Autodispersing Cellulose Nanoparticles with Extreme Uniformity"></button><span class="fig-tag mono">Published figure</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1021/acsmacrolett.7b00307" target="_blank" rel="noopener"><i>In Situ</i> Formation of Autodispersing Cellulose Nanoparticles with Extreme Uniformity</a>
                   <p class="full-authors">Y. Ahn<sup class="role">†</sup>, <strong>Y. Song</strong>, H. Kim<sup class="role">*</sup></p>
                   <p class="full-meta mono"><span class="accent">ACS Macro Letters</span> 6, 762–767 <span class="cites" data-doi="10.1021/acsmacrolett.7b00307">· Cited by 22</span></p>
                 </div>
               </li>
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2017-j-carbpol-2016-12-022.webp" data-title="Formation of cellulose-carbene complex via depolymerization in ILs: Dependence of IL types on kinetics, conformation and dispersity" data-caption="Carbohydrate Polymers 159, 86–93 (2017)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1016/j.carbpol.2016.12.022"><img src="assets/img/toc-2017-j-carbpol-2016-12-022-600.webp" loading="lazy" alt="Table-of-contents graphic: Formation of cellulose-carbene complex via depolymerization in ILs: Dependence of IL types on kinetics, conformation and dispersity"></button>
+              <li class="full-pub" data-areas="cellulose" data-first="0">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2017-j-carbpol-2016-12-022.webp" data-title="Formation of cellulose-carbene complex via depolymerization in ILs: Dependence of IL types on kinetics, conformation and dispersity" data-caption="Carbohydrate Polymers 159, 86–93 (2017)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1016/j.carbpol.2016.12.022"><img src="assets/img/toc-2017-j-carbpol-2016-12-022-600.webp" loading="lazy" alt="Table-of-contents graphic: Formation of cellulose-carbene complex via depolymerization in ILs: Dependence of IL types on kinetics, conformation and dispersity"></button><span class="fig-tag mono">Research illustration</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1016/j.carbpol.2016.12.022" target="_blank" rel="noopener">Formation of cellulose-carbene complex via depolymerization in ILs: Dependence of IL types on kinetics, conformation and dispersity</a>
                   <p class="full-authors">Y. Ahn<sup class="role">†</sup>, <strong>Y. Song</strong>, H. Kim, S.-Y. Kwak<sup class="role">*</sup></p>
                   <p class="full-meta mono"><span class="accent">Carbohydrate Polymers</span> 159, 86–93 <span class="cites" data-doi="10.1016/j.carbpol.2016.12.022">· Cited by 8</span></p>
                 </div>
               </li>
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2017-s12221-017-7079-x.webp" data-title="Morphological and chemical structure of hydrothermally carbonized saccharides" data-caption="Fibers and Polymers 18, 1602–1608 (2017)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1007/s12221-017-7079-x"><img src="assets/img/toc-2017-s12221-017-7079-x-600.webp" loading="lazy" alt="Table-of-contents graphic: Morphological and chemical structure of hydrothermally carbonized saccharides"></button>
+              <li class="full-pub" data-areas="carbon" data-first="1">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2017-s12221-017-7079-x.webp" data-title="Morphological and chemical structure of hydrothermally carbonized saccharides" data-caption="Fibers and Polymers 18, 1602–1608 (2017)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1007/s12221-017-7079-x"><img src="assets/img/toc-2017-s12221-017-7079-x-600.webp" loading="lazy" alt="Table-of-contents graphic: Morphological and chemical structure of hydrothermally carbonized saccharides"></button><span class="fig-tag mono">Research illustration</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1007/s12221-017-7079-x" target="_blank" rel="noopener">Morphological and chemical structure of hydrothermally carbonized saccharides</a>
                   <p class="full-authors"><strong>Y. Song</strong><sup class="role">†</sup>, C. Kim<sup class="role">†</sup>, J. Ahn, J. Woo, Y. Kim, H. Kim<sup class="role">*</sup></p>
@@ -492,16 +537,16 @@
           <li class="year-group">
             <h4 class="year">2016</h4>
             <ol class="year-list">
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2016-j-carbpol-2015-10-006.webp" data-title="Highly ordered cellulose II crystalline regenerated from cellulose hydrolyzed by 1-butyl-3-methylimidazolium chloride" data-caption="Carbohydrate Polymers 137, 321–327 (2016)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1016/j.carbpol.2015.10.006"><img src="assets/img/toc-2016-j-carbpol-2015-10-006-600.webp" loading="lazy" alt="Table-of-contents graphic: Highly ordered cellulose II crystalline regenerated from cellulose hydrolyzed by 1-butyl-3-methylimidazolium chloride"></button>
+              <li class="full-pub" data-areas="cellulose" data-first="1">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2016-j-carbpol-2015-10-006.webp" data-title="Highly ordered cellulose II crystalline regenerated from cellulose hydrolyzed by 1-butyl-3-methylimidazolium chloride" data-caption="Carbohydrate Polymers 137, 321–327 (2016)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1016/j.carbpol.2015.10.006"><img src="assets/img/toc-2016-j-carbpol-2015-10-006-600.webp" loading="lazy" alt="Table-of-contents graphic: Highly ordered cellulose II crystalline regenerated from cellulose hydrolyzed by 1-butyl-3-methylimidazolium chloride"></button><span class="fig-tag mono">Research illustration</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1016/j.carbpol.2015.10.006" target="_blank" rel="noopener">Highly ordered cellulose II crystalline regenerated from cellulose hydrolyzed by 1-butyl-3-methylimidazolium chloride</a>
                   <p class="full-authors">Y. Ahn<sup class="role">†</sup>, <strong>Y. Song</strong><sup class="role">†</sup>, S.-Y. Kwak<sup class="role">*</sup>, H. Kim<sup class="role">*</sup></p>
                   <p class="full-meta mono"><span class="accent">Carbohydrate Polymers</span> 137, 321–327 <span class="cites" data-doi="10.1016/j.carbpol.2015.10.006">· Cited by 27</span></p>
                 </div>
               </li>
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2016-c5cp06616f.webp" data-title="Physical state of cellulose in BmimCl: dependence of molar mass on viscoelasticity and sol-gel transition" data-caption="Physical Chemistry Chemical Physics 18, 1460–1469 (2016)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1039/c5cp06616f"><img src="assets/img/toc-2016-c5cp06616f-600.webp" loading="lazy" alt="Table-of-contents graphic: Physical state of cellulose in BmimCl: dependence of molar mass on viscoelasticity and sol-gel transition"></button>
+              <li class="full-pub" data-areas="cellulose" data-first="1">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2016-c5cp06616f.webp" data-title="Physical state of cellulose in BmimCl: dependence of molar mass on viscoelasticity and sol-gel transition" data-caption="Physical Chemistry Chemical Physics 18, 1460–1469 (2016)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1039/c5cp06616f"><img src="assets/img/toc-2016-c5cp06616f-600.webp" loading="lazy" alt="Table-of-contents graphic: Physical state of cellulose in BmimCl: dependence of molar mass on viscoelasticity and sol-gel transition"></button><span class="fig-tag mono">Research illustration</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1039/c5cp06616f" target="_blank" rel="noopener">Physical state of cellulose in BmimCl: dependence of molar mass on viscoelasticity and sol-gel transition</a>
                   <p class="full-authors">Y. Ahn<sup class="role">†</sup>, S.-Y. Kwak<sup class="role">†</sup>, <strong>Y. Song</strong><sup class="role">†</sup>, H. Kim<sup class="role">*</sup></p>
@@ -513,8 +558,8 @@
           <li class="year-group">
             <h4 class="year">2015</h4>
             <ol class="year-list">
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2015-s40691-015-0036-7.webp" data-title="Preparation of anti-bacterial cellulose fiber via electrospinning and crosslinking with β-cyclodextrin" data-caption="Fashion and Textiles 2, 11 (2015)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1186/s40691-015-0036-7"><img src="assets/img/toc-2015-s40691-015-0036-7-600.webp" loading="lazy" alt="Table-of-contents graphic: Preparation of anti-bacterial cellulose fiber via electrospinning and crosslinking with β-cyclodextrin"></button>
+              <li class="full-pub" data-areas="cellulose" data-first="0">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2015-s40691-015-0036-7.webp" data-title="Preparation of anti-bacterial cellulose fiber via electrospinning and crosslinking with β-cyclodextrin" data-caption="Fashion and Textiles 2, 11 (2015)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1186/s40691-015-0036-7"><img src="assets/img/toc-2015-s40691-015-0036-7-600.webp" loading="lazy" alt="Table-of-contents graphic: Preparation of anti-bacterial cellulose fiber via electrospinning and crosslinking with β-cyclodextrin"></button><span class="fig-tag mono">Research illustration</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1186/s40691-015-0036-7" target="_blank" rel="noopener">Preparation of anti-bacterial cellulose fiber via electrospinning and crosslinking with β-cyclodextrin</a>
                   <p class="full-authors">Y. Kang<sup class="role">†</sup>, Y. K. Choi, H. J. Kim, <strong>Y. Song</strong>, H. Kim<sup class="role">*</sup></p>
@@ -526,16 +571,16 @@
           <li class="year-group">
             <h4 class="year">2014</h4>
             <ol class="year-list">
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2014-tse-2014-51-299.webp" data-title="Physical Properties of Cellulose Acetate Reinforced by Cellulose Nanowhisker" data-caption="Textile Science and Engineering 51, 299–305 (2014)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.12772/tse.2014.51.299"><img src="assets/img/toc-2014-tse-2014-51-299-600.webp" loading="lazy" alt="Table-of-contents graphic: Physical Properties of Cellulose Acetate Reinforced by Cellulose Nanowhisker"></button>
+              <li class="full-pub" data-areas="cellulose" data-first="0">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2014-tse-2014-51-299.webp" data-title="Physical Properties of Cellulose Acetate Reinforced by Cellulose Nanowhisker" data-caption="Textile Science and Engineering 51, 299–305 (2014)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.12772/tse.2014.51.299"><img src="assets/img/toc-2014-tse-2014-51-299-600.webp" loading="lazy" alt="Table-of-contents graphic: Physical Properties of Cellulose Acetate Reinforced by Cellulose Nanowhisker"></button><span class="fig-tag mono">Research illustration</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.12772/tse.2014.51.299" target="_blank" rel="noopener">Physical Properties of Cellulose Acetate Reinforced by Cellulose Nanowhisker</a>
                   <p class="full-authors">H. E. Cho<sup class="role">†</sup>, <strong>Y. Song</strong>, H. Kim<sup class="role">*</sup></p>
                   <p class="full-meta mono"><span class="accent">Textile Science and Engineering</span> 51, 299–305 <span class="cites" data-doi="10.12772/tse.2014.51.299">· Cited by 2</span></p>
                 </div>
               </li>
-              <li class="full-pub">
-                <button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2014-s12221-014-1835-y.webp" data-title="Effect of oxidized alginate on its electrospinnability" data-caption="Fibers and Polymers 15, 1835–1841 (2014)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1007/s12221-014-1835-y"><img src="assets/img/toc-2014-s12221-014-1835-y-600.webp" loading="lazy" alt="Table-of-contents graphic: Effect of oxidized alginate on its electrospinnability"></button>
+              <li class="full-pub" data-areas="cellulose" data-first="0">
+                <div class="full-fig"><button class="figure-btn full-toc" type="button" data-lightbox data-src="assets/img/toc-2014-s12221-014-1835-y.webp" data-title="Effect of oxidized alginate on its electrospinnability" data-caption="Fibers and Polymers 15, 1835–1841 (2014)" data-credit="Research illustration / not experimental data. Prepared by the author for this site." data-credit-href="https://doi.org/10.1007/s12221-014-1835-y"><img src="assets/img/toc-2014-s12221-014-1835-y-600.webp" loading="lazy" alt="Table-of-contents graphic: Effect of oxidized alginate on its electrospinnability"></button><span class="fig-tag mono">Research illustration</span></div>
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/10.1007/s12221-014-1835-y" target="_blank" rel="noopener">Effect of oxidized alginate on its electrospinnability</a>
                   <p class="full-authors">M. K. Ku<sup class="role">†</sup>, Y. Ahn, <strong>Y. Song</strong>, Y.-H. Yang, H. Kim<sup class="role">*</sup></p>
@@ -553,24 +598,25 @@
     <section class="section wrap about" id="about" aria-labelledby="about-title">
       <div class="section-head">
         <p class="section-num mono">03 / ABOUT</p>
-        <h2 id="about-title">Younghan Song, Ph.D.</h2>
+        <h2 id="about-title" data-i18n="about.title">About Younghan Song</h2>
         <figure class="about-photo">
           <img src="assets/img/profile-600.webp" srcset="assets/img/profile-600.webp 600w, assets/img/profile.webp 1200w" sizes="(max-width: 860px) 60vw, 300px" width="600" height="800" loading="lazy" alt="Portrait of Younghan Song">
         </figure>
       </div>
       <div class="about-body">
-        <p class="about-lead">My research connects polymer formulation, solution processing, and material architecture.</p>
-        <p>I study how the composition of a material and the way it is processed decide the structure it forms, and how that structure decides what it can do. The work spans photocurable resins for DLP 3D printing, cellulose and chitin nanofibers organized into films, fibers, and porous membranes, and composites whose woven architectures and interfaces control mechanical performance and selective separation.</p>
+        <p class="about-lead" data-i18n="about.lead">I am a research fellow in the Department of Materials Engineering at Konkuk University, where I lead a Sejong Science Fellowship project on photocurable resins for 3D printing. I earned my Ph.D. at Konkuk University and held postdoctoral positions at Rensselaer Polytechnic Institute and the Korea Institute of Science and Technology (KIST).</p>
+        <h3 class="cv-title mono" data-i18n="about.cvTitle">Appointments and Education</h3>
         <dl class="cv">
-          <dt class="mono">2025–now</dt><dd>Research Fellow, Department of Materials Engineering, Konkuk University</dd>
-          <dt class="mono">2024–2029</dt><dd>Sejong Science Fellowship (PI), National Research Foundation of Korea</dd>
-          <dt class="mono">2023–2025</dt><dd>Postdoctoral Research Associate, Materials Architecturing Research Center, KIST</dd>
-          <dt class="mono">2023</dt><dd>Researcher, Advanced Materials Convergence Research Team, KOTITI Testing &amp; Research Institute</dd>
-          <dt class="mono">2020–2022</dt><dd>Postdoctoral Research Associate, Department of Chemistry and Chemical Biology, Rensselaer Polytechnic Institute</dd>
-          <dt class="mono">2020</dt><dd>Ph.D., Organic and Nano System Engineering, Konkuk University</dd>
-          <dt class="mono">2016</dt><dd>M.S., Organic and Nano System Engineering, Konkuk University</dd>
-          <dt class="mono">2015</dt><dd>B.S., Organic and Nano System Engineering, Konkuk University</dd>
+          <dt class="mono" data-i18n="about.now">2025–now</dt><dd data-i18n="about.cv1">Research Fellow, Department of Materials Engineering, Konkuk University</dd>
+          <dt class="mono">2024–2029</dt><dd data-i18n="about.cv2">Sejong Science Fellowship (PI), National Research Foundation of Korea</dd>
+          <dt class="mono">2023–2025</dt><dd data-i18n="about.cv3">Postdoctoral Research Associate, Materials Architecturing Research Center, KIST</dd>
+          <dt class="mono">2023</dt><dd data-i18n="about.cv4">Researcher, Advanced Materials Convergence Research Team, KOTITI Testing &amp; Research Institute</dd>
+          <dt class="mono">2020–2022</dt><dd data-i18n="about.cv5">Postdoctoral Research Associate, Department of Chemistry and Chemical Biology, Rensselaer Polytechnic Institute</dd>
+          <dt class="mono">2020</dt><dd data-i18n="about.cv6">Ph.D., Organic and Nano System Engineering, Konkuk University</dd>
+          <dt class="mono">2016</dt><dd data-i18n="about.cv7">M.S., Organic and Nano System Engineering, Konkuk University</dd>
+          <dt class="mono">2015</dt><dd data-i18n="about.cv8">B.S., Organic and Nano System Engineering, Konkuk University</dd>
         </dl>
+        <p class="cv-download"><a class="btn btn-line" href="assets/cv/Younghan_Song_CV.pdf" target="_blank" rel="noopener" data-i18n="hero.btnCv">Download CV</a></p>
         <ul class="profile-links mono" aria-label="Profiles">
           <li><a href="https://scholar.google.co.kr/citations?user=t_mzCmYAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a></li>
           <li><a href="https://orcid.org/0000-0001-8236-3793" target="_blank" rel="noopener">ORCID <span aria-hidden="true">↗</span></a></li>
@@ -584,24 +630,25 @@
   <footer class="contact" id="contact" aria-labelledby="contact-title">
     <div class="wrap">
       <p class="section-num mono">04 / CONTACT</p>
-      <h2 id="contact-title">Let’s talk materials.</h2>
+      <h2 id="contact-title" data-i18n="contact.title">Contact</h2>
+      <p class="contact-lede" data-i18n="contact.lede">For research collaborations, seminar invitations, or questions about my work, please email me at <a href="mailto:ilon@konkuk.ac.kr">ilon@konkuk.ac.kr</a>.</p>
       <div class="contact-row">
         <a class="contact-email" href="mailto:ilon@konkuk.ac.kr">ilon@konkuk.ac.kr</a>
-        <button class="btn btn-line copy-btn" type="button" data-copy="ilon@konkuk.ac.kr">Copy email</button>
+        <button class="btn btn-line copy-btn" type="button" data-copy="ilon@konkuk.ac.kr" data-i18n="contact.copy">Copy email</button>
         <span class="copy-status mono" role="status" aria-live="polite"></span>
       </div>
       <div class="footerline mono">
         <span>© 2026 Younghan Song</span>
         <details class="credits">
-          <summary>Image credits</summary>
+          <summary data-i18n="credits.summary">Image credits</summary>
           <div class="credits-body">
-            <p><strong>Hero and research images</strong>: concept renders made for this website. They are illustrations, not experimental photographs or microscope images.</p>
-            <p><strong>Publication figures</strong>: table-of-contents graphics in the publication list are the published images (Elsevier, Springer Nature, ACS, Wiley), shown unaltered and linked to each paper. Where no published graphic was available, the list shows a research illustration prepared by the author; these are marked "Research illustration / not experimental data". Featured: published graphical abstracts of the 2019 and 2022 <em>Carbohydrate Polymers</em> papers (© Elsevier), and Fig. 1 of the 2026 <em>Nature Communications</em> paper (CC BY 4.0), shown unaltered.</p>
+            <p>The homepage and research-area images are conceptual illustrations rather than experimental images.</p>
+            <p><strong>Publication figures</strong>: table-of-contents graphics in the publication list are the published images (Elsevier, Springer Nature, ACS, Wiley), shown unaltered and linked to each paper. Where no published graphic was available, the list shows a research illustration prepared by the author; these are tagged "Research illustration" beside the image and marked "Research illustration / not experimental data". Featured: published graphical abstracts of the 2019 <em>Carbohydrate Polymers</em> and 2026 <em>Int. J. Biol. Macromol.</em> papers (© Elsevier), and Fig. 1 of the 2026 <em>Nature Communications</em> paper (CC BY 4.0), shown unaltered.</p>
             <p><strong>Gripper photographs</strong>: <a href="https://www.kaist.ac.kr/news/html/news/?GotoPage=5&amp;mng_no=66470&amp;mode=V" target="_blank" rel="noopener">KAIST News ↗</a></p>
             <p><strong>Typeface</strong>: Archivo (<a href="assets/fonts/Archivo-OFL.txt">SIL Open Font License</a>). Design references: <a href="https://mai.seoultech.ac.kr/" target="_blank" rel="noopener">MAI, SeoulTech</a> and <a href="https://kihoon-son.github.io/#publications" target="_blank" rel="noopener">Kihoon Son</a>. <a href="concepts/">Earlier design studies</a>.</p>
           </div>
         </details>
-        <a href="#top" class="to-top">Back to top ↑</a>
+        <a href="#top" class="to-top" data-i18n="contact.top">Back to top ↑</a>
       </div>
     </div>
   </footer>

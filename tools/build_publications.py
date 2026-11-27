@@ -21,6 +21,7 @@ out = []
 for year, group in groupby(pubs, key=lambda p: p["y"]):
     out.append(f'          <li class="year-group">\n            <h4 class="year">{year}</h4>\n            <ol class="year-list">')
     for p in group:
+        is_first = "Y. Song" in p.get("first", [])
         def mark(a):
             sup = ("†" if a in p.get("first", []) else "") + ("*" if a in p.get("corr", []) else "")
             name = f"<strong>{a}</strong>" if a == "Y. Song" else a
@@ -41,7 +42,10 @@ for year, group in groupby(pubs, key=lambda p: p["y"]):
                    f'<img src="{p["toc_thumb"]}" loading="lazy" alt="Table-of-contents graphic: {html.escape(plain_title)}"></button>')
         else:
             fig = '<div class="full-toc is-empty" aria-hidden="true"></div>'
-        out.append(f'''              <li class="full-pub">
+        tag = "Research illustration" if p.get("toc_kind") == "illustration" else "Published figure"
+        if p.get("toc"):
+            fig = f'<div class="full-fig">{fig}<span class="fig-tag mono">{tag}</span></div>'
+        out.append(f'''              <li class="full-pub" data-areas="{' '.join(p.get('areas', []))}" data-first="{'1' if is_first else '0'}">
                 {fig}
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/{p['doi']}" target="_blank" rel="noopener">{p['t']}</a>

@@ -27,3 +27,9 @@ Open `index.html` in a browser, or serve the folder:
 ## Image notes
 Research renders are concept images, not experimental photographs or microscope images.
 Publication TOC graphics in the full list are the publishers' table-of-contents images (Elsevier, Springer Nature), shown unaltered with a link to the paper. Featured-paper figures are shown unaltered: the published graphical abstracts of the 2019 and 2022 Carbohydrate Polymers papers (© Elsevier) and Fig. 1 of the 2026 Nature Communications paper (CC BY 4.0).
+
+## Updates (Nov 2026)
+- Korean/English toggle: UI text has `data-i18n` keys; Korean strings live in the `KO` object in `assets/js/site.js`. Paper titles stay in English. `?lang=ko` opens the Korean view.
+- Publication filters: each paper's `areas` in `data/publications.json` (polymer, cellulose, mof, carbon, catal); "first author" uses the `first` list.
+- Public CV: `assets/cv/Younghan_Song_CV.pdf` (phone, personal email, referee contacts removed).
+- SEO: `sitemap.xml`, `robots.txt`, preview image `assets/img/og-image.jpg`. Paste the Google Search Console verification meta tag where the comment in `<head>` says.

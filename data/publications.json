@@ -28,7 +28,10 @@
   "first": [
    "S. H. Kim"
   ],
-  "cites": 0
+  "cites": 0,
+  "areas": [
+   "catal"
+  ]
  },
  {
   "doi": "10.1038/s41467-026-73735-4",
@@ -56,7 +59,10 @@
    "Y. Song",
    "B. Park"
   ],
-  "cites": 5
+  "cites": 5,
+  "areas": [
+   "polymer"
+  ]
  },
  {
   "doi": "10.1016/j.ijbiomac.2026.153803",
@@ -84,7 +90,11 @@
    "Y. Song"
   ],
   "cites": 1,
-  "toc_kind": "published"
+  "toc_kind": "published",
+  "areas": [
+   "cellulose",
+   "catal"
+  ]
  },
  {
   "doi": "10.1016/j.cej.2025.163848",
@@ -116,7 +126,11 @@
    "J. Hwang",
    "Y. Song"
   ],
-  "cites": 5
+  "cites": 5,
+  "areas": [
+   "polymer",
+   "catal"
+  ]
  },
  {
   "doi": "10.1002/cssc.202401968",
@@ -146,7 +160,11 @@
    "Q. T. Nguyen"
   ],
   "cites": 16,
-  "toc_kind": "published"
+  "toc_kind": "published",
+  "areas": [
+   "mof",
+   "catal"
+  ]
  },
  {
   "doi": "10.1016/j.carbpol.2024.122685",
@@ -178,7 +196,12 @@
    "D. B. Jung",
    "Y. Song"
   ],
-  "cites": 25
+  "cites": 25,
+  "areas": [
+   "cellulose",
+   "mof",
+   "catal"
+  ]
  },
  {
   "doi": "10.1016/j.carbpol.2023.121489",
@@ -204,7 +227,11 @@
    "J. Y. Seo",
    "Y. Song"
   ],
-  "cites": 17
+  "cites": 17,
+  "areas": [
+   "cellulose",
+   "mof"
+  ]
  },
  {
   "doi": "10.1016/j.cej.2024.154352",
@@ -236,7 +263,11 @@
    "C. Wang"
   ],
   "cites": 70,
-  "toc_kind": "illustration"
+  "toc_kind": "illustration",
+  "areas": [
+   "mof",
+   "catal"
+  ]
  },
  {
   "doi": "10.1016/j.polymer.2023.126032",
@@ -264,7 +295,10 @@
   "first": [
    "L. Zakrzewski"
   ],
-  "cites": 18
+  "cites": 18,
+  "areas": [
+   "polymer"
+  ]
  },
  {
   "doi": "10.1016/j.carbpol.2021.118754",
@@ -291,7 +325,11 @@
    "Y. Song",
    "J. Y. Seo"
   ],
-  "cites": 13
+  "cites": 13,
+  "areas": [
+   "cellulose",
+   "mof"
+  ]
  },
  {
   "doi": "10.1007/s10570-021-04209-7",
@@ -317,7 +355,10 @@
   "first": [
    "T. Kim"
   ],
-  "cites": 8
+  "cites": 8,
+  "areas": [
+   "cellulose"
+  ]
  },
  {
   "doi": "10.1016/j.carbpol.2020.117387",
@@ -341,7 +382,12 @@
   "first": [
    "J. Ahn"
   ],
-  "cites": 57
+  "cites": 57,
+  "areas": [
+   "cellulose",
+   "mof",
+   "carbon"
+  ]
  },
  {
   "doi": "10.1021/acsami.1c08138",
@@ -369,7 +415,11 @@
    "Y. Song"
   ],
   "cites": 49,
-  "toc_kind": "published"
+  "toc_kind": "published",
+  "areas": [
+   "cellulose",
+   "mof"
+  ]
  },
  {
   "doi": "10.12772/TSE.2020.57.192",
@@ -398,7 +448,10 @@
    "T. Kim"
   ],
   "cites": 0,
-  "toc_kind": "illustration"
+  "toc_kind": "illustration",
+  "areas": [
+   "polymer"
+  ]
  },
  {
   "doi": "10.1007/s10570-020-03099-5",
@@ -423,7 +476,11 @@
    "J. Woo",
    "Y. Song"
   ],
-  "cites": 52
+  "cites": 52,
+  "areas": [
+   "cellulose",
+   "carbon"
+  ]
  },
  {
   "doi": "10.1007/s12221-020-9934-4",
@@ -448,7 +505,11 @@
    "H. Kim"
   ],
   "cites": 7,
-  "toc_kind": "illustration"
+  "toc_kind": "illustration",
+  "areas": [
+   "cellulose",
+   "carbon"
+  ]
  },
  {
   "doi": "10.7317/pk.2019.43.6.958",
@@ -472,7 +533,10 @@
    "Y. Song"
   ],
   "cites": 2,
-  "toc_kind": "illustration"
+  "toc_kind": "illustration",
+  "areas": [
+   "cellulose"
+  ]
  },
  {
   "doi": "10.1016/j.dib.2019.104038",
@@ -499,7 +563,10 @@
    "Y. Song"
   ],
   "cites": 44,
-  "toc_kind": "illustration"
+  "toc_kind": "illustration",
+  "areas": [
+   "carbon"
+  ]
  },
  {
   "doi": "10.1007/s12221-019-1038-7",
@@ -523,7 +590,10 @@
    "Y. Kim"
   ],
   "cites": 5,
-  "toc_kind": "illustration"
+  "toc_kind": "illustration",
+  "areas": [
+   "cellulose"
+  ]
  },
  {
   "doi": "10.1016/j.msec.2019.04.019",
@@ -552,7 +622,10 @@
    "J. Ahn",
    "Y. Song"
   ],
-  "cites": 154
+  "cites": 154,
+  "areas": [
+   "carbon"
+  ]
  },
  {
   "doi": "10.1016/j.carbpol.2019.115018",
@@ -578,7 +651,11 @@
    "Y. Song",
    "J. Y. Seo"
   ],
-  "cites": 105
+  "cites": 105,
+  "areas": [
+   "cellulose",
+   "mof"
+  ]
  },
  {
   "doi": "10.1007/s10570-017-1625-y",
@@ -603,7 +680,10 @@
    "Y. Song"
   ],
   "cites": 42,
-  "toc_kind": "illustration"
+  "toc_kind": "illustration",
+  "areas": [
+   "cellulose"
+  ]
  },
  {
   "doi": "10.12772/tse.2017.54.017",
@@ -627,7 +707,10 @@
    "Y. Song"
   ],
   "cites": 1,
-  "toc_kind": "illustration"
+  "toc_kind": "illustration",
+  "areas": [
+   "carbon"
+  ]
  },
  {
   "doi": "10.1021/acsmacrolett.7b00307",
@@ -651,7 +734,10 @@
    "Y. Ahn"
   ],
   "cites": 22,
-  "toc_kind": "published"
+  "toc_kind": "published",
+  "areas": [
+   "cellulose"
+  ]
  },
  {
   "doi": "10.1016/j.carbpol.2016.12.022",
@@ -676,7 +762,10 @@
    "Y. Ahn"
   ],
   "cites": 8,
-  "toc_kind": "illustration"
+  "toc_kind": "illustration",
+  "areas": [
+   "cellulose"
+  ]
  },
  {
   "doi": "10.1007/s12221-017-7079-x",
@@ -704,7 +793,10 @@
    "C. Kim"
   ],
   "cites": 11,
-  "toc_kind": "illustration"
+  "toc_kind": "illustration",
+  "areas": [
+   "carbon"
+  ]
  },
  {
   "doi": "10.1016/j.carbpol.2015.10.006",
@@ -731,7 +823,10 @@
    "Y. Song"
   ],
   "cites": 27,
-  "toc_kind": "illustration"
+  "toc_kind": "illustration",
+  "areas": [
+   "cellulose"
+  ]
  },
  {
   "doi": "10.1039/c5cp06616f",
@@ -758,7 +853,10 @@
    "Y. Song"
   ],
   "cites": 47,
-  "toc_kind": "illustration"
+  "toc_kind": "illustration",
+  "areas": [
+   "cellulose"
+  ]
  },
  {
   "doi": "10.1186/s40691-015-0036-7",
@@ -784,7 +882,10 @@
    "Y. Kang"
   ],
   "cites": 21,
-  "toc_kind": "illustration"
+  "toc_kind": "illustration",
+  "areas": [
+   "cellulose"
+  ]
  },
  {
   "doi": "10.12772/tse.2014.51.299",
@@ -808,7 +909,10 @@
    "H. E. Cho"
   ],
   "cites": 2,
-  "toc_kind": "illustration"
+  "toc_kind": "illustration",
+  "areas": [
+   "cellulose"
+  ]
  },
  {
   "doi": "10.1007/s12221-014-1835-y",
@@ -834,6 +938,9 @@
    "M. K. Ku"
   ],
   "cites": 12,
-  "toc_kind": "illustration"
+  "toc_kind": "illustration",
+  "areas": [
+   "cellulose"
+  ]
  }
 ]
