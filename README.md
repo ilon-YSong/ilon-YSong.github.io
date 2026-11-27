@@ -11,7 +11,7 @@ Open `index.html` in a browser, or serve the folder:
 - `index.html`: all content (hero, research, selected publications, about, contact)
 - `assets/css/site.css`: design tokens at the top (`--bg #F8F8F3`, `--ink #242720`, `--muted #676B61`, `--accent #A54734`, `--line #D8DAD1`)
 - `assets/js/site.js`: mobile menu, image lightbox (title/caption/credit per image, Esc, ←/→), copy email
-- `assets/img/`: research concept renders (`research-*.webp`, 900px card + full size), publication schematics (`thumb-*.svg`), gripper photographs (KAIST News)
+- `assets/img/`: research concept renders (`research-*.webp`, 900px card + full size), published TOC / figures for the featured papers (`toc-*.webp`), hero render (`hero-material*.webp`), gripper photographs (KAIST News)
 - `assets/fonts/`: Archivo 400–700 (woff2, SIL OFL)
 - `data/publications.json`: full publication list (30 articles from ORCID, details from Crossref; the 2020 corrigendum is left out)
 - `concepts/`: earlier five design studies (kept for reference, not indexed)
@@ -23,4 +23,4 @@ Open `index.html` in a browser, or serve the folder:
 
 ## Image notes
 Research renders are concept images, not experimental photographs or microscope images.
-Publication thumbnails are schematics drawn for this site from the published graphical abstracts (2019, 2022) and Figures 1 and 5 of the 2026 paper.
+Featured-paper figures are shown unaltered: the published graphical abstracts of the 2019 and 2022 Carbohydrate Polymers papers (© Elsevier) and Fig. 1 of the 2026 Nature Communications paper (CC BY 4.0).
