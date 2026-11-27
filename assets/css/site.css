@@ -321,3 +321,4 @@ button { font: inherit; color: inherit; }
   .full-toc { max-width: 420px; }
   .full-toc.is-empty { display: none; }
 }
+.hero h1 { font-size: clamp(44px, 6.6vw, 96px); }
