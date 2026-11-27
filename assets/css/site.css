@@ -342,3 +342,8 @@ sup.role { font-size: .72em; line-height: 0; color: var(--accent); margin-left: 
 .cv dt { font-size: 12px; color: var(--accent); letter-spacing: .02em; padding-top: 13px; }
 .cv dd { font-size: 15px; line-height: 1.45; color: var(--ink); }
 @media (max-width: 560px) { .cv { grid-template-columns: 78px 1fr; } .cv dd { font-size: 14px; } }
+
+/* About: portrait */
+.about-photo { margin: 40px 0 0; width: min(100%, 300px); }
+.about-photo img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; }
+@media (max-width: 860px) { .about-photo { margin-top: 28px; width: min(60vw, 260px); } }
