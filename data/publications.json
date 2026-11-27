@@ -16,7 +16,16 @@
   ],
   "toc": "assets/img/toc-2026-natcommun-fig1.webp",
   "toc_thumb": "assets/img/toc-2026-natcommun-fig1-900.webp",
-  "toc_source": "CC BY 4.0, Fig. 1"
+  "toc_source": "CC BY 4.0, Fig. 1",
+  "corr": [
+   "S. Lee",
+   "J. Na"
+  ],
+  "first": [
+   "Y. Song",
+   "B. Park"
+  ],
+  "cites": 1
  },
  {
   "doi": "10.1016/j.ijbiomac.2026.153803",
@@ -35,7 +44,14 @@
   ],
   "toc": null,
   "toc_thumb": null,
-  "toc_source": null
+  "toc_source": null,
+  "corr": [
+   "H. Kim"
+  ],
+  "first": [
+   "S. Lee"
+  ],
+  "cites": 1
  },
  {
   "doi": "10.1016/j.cej.2025.163848",
@@ -58,7 +74,15 @@
   ],
   "toc": "assets/img/ga-cej-2025-163848.webp",
   "toc_thumb": "assets/img/ga-cej-2025-163848-600.webp",
-  "toc_source": "Elsevier"
+  "toc_source": "Elsevier",
+  "corr": [
+   "J. Na",
+   "J. Y. Seo"
+  ],
+  "first": [
+   "J. Hwang"
+  ],
+  "cites": 5
  },
  {
   "doi": "10.1002/cssc.202401968",
@@ -79,7 +103,15 @@
   ],
   "toc": null,
   "toc_thumb": null,
-  "toc_source": null
+  "toc_source": null,
+  "corr": [
+   "S. H. Kim",
+   "J. Na"
+  ],
+  "first": [
+   "Q. T. Nguyen"
+  ],
+  "cites": 15
  },
  {
   "doi": "10.1016/j.carbpol.2024.122685",
@@ -101,7 +133,16 @@
   ],
   "toc": "assets/img/ga-carbpol-2025-122685.webp",
   "toc_thumb": "assets/img/ga-carbpol-2025-122685-600.webp",
-  "toc_source": "Elsevier"
+  "toc_source": "Elsevier",
+  "corr": [
+   "J. Choi",
+   "J. Na",
+   "J. Y. Seo"
+  ],
+  "first": [
+   "D. B. Jung"
+  ],
+  "cites": 27
  },
  {
   "doi": "10.1016/j.carbpol.2023.121489",
@@ -119,7 +160,14 @@
   ],
   "toc": "assets/img/ga-carbpol-2024-121489.webp",
   "toc_thumb": "assets/img/ga-carbpol-2024-121489-600.webp",
-  "toc_source": "Elsevier"
+  "toc_source": "Elsevier",
+  "corr": [
+   "K.-Y. Baek"
+  ],
+  "first": [
+   "J. Y. Seo"
+  ],
+  "cites": 18
  },
  {
   "doi": "10.1016/j.cej.2024.154352",
@@ -142,7 +190,17 @@
   ],
   "toc": null,
   "toc_thumb": null,
-  "toc_source": null
+  "toc_source": null,
+  "corr": [
+   "J. Wang",
+   "X. Zhu",
+   "J. Na",
+   "Y. Mao"
+  ],
+  "first": [
+   "C. Wang"
+  ],
+  "cites": 64
  },
  {
   "doi": "10.1016/j.polymer.2023.126032",
@@ -161,7 +219,14 @@
   ],
   "toc": "assets/img/ga-polymer-2023.webp",
   "toc_thumb": "assets/img/ga-polymer-2023-600.webp",
-  "toc_source": "Elsevier"
+  "toc_source": "Elsevier",
+  "corr": [
+   "C. R. Picu"
+  ],
+  "first": [
+   "L. Zakrzewski"
+  ],
+  "cites": 14
  },
  {
   "doi": "10.1016/j.carbpol.2021.118754",
@@ -179,7 +244,15 @@
   ],
   "toc": "assets/img/toc-2022-chitin-zif8.webp",
   "toc_thumb": "assets/img/toc-2022-chitin-zif8-900.webp",
-  "toc_source": "Elsevier"
+  "toc_source": "Elsevier",
+  "corr": [
+   "S. Cho",
+   "K.-Y. Baek"
+  ],
+  "first": [
+   "Y. Song"
+  ],
+  "cites": 12
  },
  {
   "doi": "10.1007/s10570-021-04209-7",
@@ -198,7 +271,14 @@
   ],
   "toc": "assets/img/ga-cellulose-2021.webp",
   "toc_thumb": "assets/img/ga-cellulose-2021-600.webp",
-  "toc_source": "Springer Nature"
+  "toc_source": "Springer Nature",
+  "corr": [
+   "H. Kim"
+  ],
+  "first": [
+   "T. Kim"
+  ],
+  "cites": 6
  },
  {
   "doi": "10.1016/j.carbpol.2020.117387",
@@ -215,7 +295,14 @@
   ],
   "toc": "assets/img/ga-carbpol-2021-117387.webp",
   "toc_thumb": "assets/img/ga-carbpol-2021-117387-600.webp",
-  "toc_source": "Elsevier"
+  "toc_source": "Elsevier",
+  "corr": [
+   "H. Kim"
+  ],
+  "first": [
+   "J. Ahn"
+  ],
+  "cites": 49
  },
  {
   "doi": "10.1021/acsami.1c08138",
@@ -234,7 +321,14 @@
   ],
   "toc": null,
   "toc_thumb": null,
-  "toc_source": null
+  "toc_source": null,
+  "corr": [
+   "K.-Y. Baek"
+  ],
+  "first": [
+   "J. Y. Seo"
+  ],
+  "cites": 45
  },
  {
   "doi": "10.12772/TSE.2020.57.192",
@@ -255,7 +349,12 @@
   ],
   "toc": null,
   "toc_thumb": null,
-  "toc_source": null
+  "toc_source": null,
+  "corr": [],
+  "first": [
+   "T. Kim"
+  ],
+  "cites": 1
  },
  {
   "doi": "10.1007/s10570-020-03099-5",
@@ -272,7 +371,14 @@
   ],
   "toc": "assets/img/ga-cellulose-2020.webp",
   "toc_thumb": "assets/img/ga-cellulose-2020-600.webp",
-  "toc_source": "Springer Nature"
+  "toc_source": "Springer Nature",
+  "corr": [
+   "H. Kim"
+  ],
+  "first": [
+   "J. Woo"
+  ],
+  "cites": 48
  },
  {
   "doi": "10.1007/s12221-020-9934-4",
@@ -288,7 +394,14 @@
   ],
   "toc": null,
   "toc_thumb": null,
-  "toc_source": null
+  "toc_source": null,
+  "corr": [
+   "Y. Song"
+  ],
+  "first": [
+   "J. Woo"
+  ],
+  "cites": 6
  },
  {
   "doi": "10.7317/pk.2019.43.6.958",
@@ -304,7 +417,12 @@
   ],
   "toc": null,
   "toc_thumb": null,
-  "toc_source": null
+  "toc_source": null,
+  "corr": [],
+  "first": [
+   "Y. Song"
+  ],
+  "cites": 0
  },
  {
   "doi": "10.1016/j.dib.2019.104038",
@@ -322,7 +440,14 @@
   ],
   "toc": null,
   "toc_thumb": null,
-  "toc_source": null
+  "toc_source": null,
+  "corr": [
+   "H. Kim"
+  ],
+  "first": [
+   "J. Ahn"
+  ],
+  "cites": 41
  },
  {
   "doi": "10.1007/s12221-019-1038-7",
@@ -338,7 +463,14 @@
   ],
   "toc": null,
   "toc_thumb": null,
-  "toc_source": null
+  "toc_source": null,
+  "corr": [
+   "H. Kim"
+  ],
+  "first": [
+   "Y. Kim"
+  ],
+  "cites": 5
  },
  {
   "doi": "10.1016/j.msec.2019.04.019",
@@ -359,7 +491,14 @@
   ],
   "toc": "assets/img/ga-msec-2019.webp",
   "toc_thumb": "assets/img/ga-msec-2019-600.webp",
-  "toc_source": "Elsevier"
+  "toc_source": "Elsevier",
+  "corr": [
+   "H. Kim"
+  ],
+  "first": [
+   "J. Ahn"
+  ],
+  "cites": 140
  },
  {
   "doi": "10.1016/j.carbpol.2019.115018",
@@ -376,7 +515,15 @@
   ],
   "toc": "assets/img/toc-2019-cellulose-zif8.webp",
   "toc_thumb": "assets/img/toc-2019-cellulose-zif8-900.webp",
-  "toc_source": "Elsevier"
+  "toc_source": "Elsevier",
+  "corr": [
+   "H. Kim",
+   "K.-Y. Baek"
+  ],
+  "first": [
+   "Y. Song"
+  ],
+  "cites": 97
  },
  {
   "doi": "10.1007/s10570-017-1625-y",
@@ -392,7 +539,14 @@
   ],
   "toc": null,
   "toc_thumb": null,
-  "toc_source": null
+  "toc_source": null,
+  "corr": [
+   "H. Kim"
+  ],
+  "first": [
+   "Y. Kim"
+  ],
+  "cites": 29
  },
  {
   "doi": "10.12772/tse.2017.54.017",
@@ -408,7 +562,12 @@
   ],
   "toc": null,
   "toc_thumb": null,
-  "toc_source": null
+  "toc_source": null,
+  "corr": [],
+  "first": [
+   "Y. Song"
+  ],
+  "cites": 1
  },
  {
   "doi": "10.1021/acsmacrolett.7b00307",
@@ -424,7 +583,14 @@
   ],
   "toc": null,
   "toc_thumb": null,
-  "toc_source": null
+  "toc_source": null,
+  "corr": [
+   "H. Kim"
+  ],
+  "first": [
+   "Y. Ahn"
+  ],
+  "cites": 21
  },
  {
   "doi": "10.1016/j.carbpol.2016.12.022",
@@ -441,7 +607,15 @@
   ],
   "toc": null,
   "toc_thumb": null,
-  "toc_source": null
+  "toc_source": null,
+  "corr": [
+   "H. Kim",
+   "S.-Y. Kwak"
+  ],
+  "first": [
+   "Y. Ahn"
+  ],
+  "cites": 7
  },
  {
   "doi": "10.1007/s12221-017-7079-x",
@@ -460,7 +634,14 @@
   ],
   "toc": null,
   "toc_thumb": null,
-  "toc_source": null
+  "toc_source": null,
+  "corr": [
+   "H. Kim"
+  ],
+  "first": [
+   "Y. Song"
+  ],
+  "cites": 11
  },
  {
   "doi": "10.1016/j.carbpol.2015.10.006",
@@ -477,7 +658,14 @@
   ],
   "toc": null,
   "toc_thumb": null,
-  "toc_source": null
+  "toc_source": null,
+  "corr": [
+   "H. Kim"
+  ],
+  "first": [
+   "Y. Ahn"
+  ],
+  "cites": 27
  },
  {
   "doi": "10.1039/c5cp06616f",
@@ -494,7 +682,14 @@
   ],
   "toc": null,
   "toc_thumb": null,
-  "toc_source": null
+  "toc_source": null,
+  "corr": [
+   "H. Kim"
+  ],
+  "first": [
+   "Y. Ahn"
+  ],
+  "cites": 37
  },
  {
   "doi": "10.1186/s40691-015-0036-7",
@@ -512,7 +707,14 @@
   ],
   "toc": null,
   "toc_thumb": null,
-  "toc_source": null
+  "toc_source": null,
+  "corr": [
+   "H. Kim"
+  ],
+  "first": [
+   "Y. Kang"
+  ],
+  "cites": 15
  },
  {
   "doi": "10.12772/tse.2014.51.299",
@@ -528,7 +730,12 @@
   ],
   "toc": null,
   "toc_thumb": null,
-  "toc_source": null
+  "toc_source": null,
+  "corr": [],
+  "first": [
+   "H. E. Cho"
+  ],
+  "cites": 0
  },
  {
   "doi": "10.1007/s12221-014-1835-y",
@@ -546,6 +753,13 @@
   ],
   "toc": null,
   "toc_thumb": null,
-  "toc_source": null
+  "toc_source": null,
+  "corr": [
+   "H. Kim"
+  ],
+  "first": [
+   "M. K. Ku"
+  ],
+  "cites": 14
  }
 ]

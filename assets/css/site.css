@@ -322,3 +322,16 @@ button { font: inherit; color: inherit; }
   .full-toc.is-empty { display: none; }
 }
 .hero h1 { font-size: clamp(44px, 6.6vw, 96px); }
+
+/* ---------- Author roles + citations ---------- */
+sup.role { font-size: .72em; line-height: 0; color: var(--accent); margin-left: 1px; font-weight: 600; }
+.role-legend { color: var(--muted); font-size: 11px; text-transform: none; letter-spacing: .02em; margin: 0 0 14px; }
+.role-legend a { color: inherit; text-underline-offset: 2px; }
+.cites { color: var(--muted); }
+.pub-links .cites { color: var(--muted); text-transform: none; letter-spacing: .02em; }
+.all-side { display: grid; gap: 6px; justify-items: end; }
+.cite-stats { color: var(--muted); font-size: 11.5px; text-transform: none; letter-spacing: .02em; }
+.cite-stats b { color: var(--ink); font-weight: 600; }
+.all-pubs .role-legend { margin-top: 10px; }
+@media (max-width: 720px) { .all-side { justify-items: start; } }
+@media (max-width: 720px) { .full-toc { max-width: 240px; } }

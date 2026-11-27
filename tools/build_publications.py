@@ -13,7 +13,14 @@ out = []
 for year, group in groupby(pubs, key=lambda p: p["y"]):
     out.append(f'          <li class="year-group">\n            <h4 class="year">{year}</h4>\n            <ol class="year-list">')
     for p in group:
-        authors = ", ".join("<strong>Y. Song</strong>" if a == "Y. Song" else a for a in p["a"])
+        def mark(a):
+            sup = ("†" if a in p.get("first", []) else "") + ("*" if a in p.get("corr", []) else "")
+            name = f"<strong>{a}</strong>" if a == "Y. Song" else a
+            return name + (f'<sup class="role">{sup}</sup>' if sup else "")
+        authors = ", ".join(mark(a) for a in p["a"])
+        cites = p.get("cites")
+        cite_html = f' <span class="cites" data-doi="{p["doi"].lower()}">· Cited by {cites}</span>' if cites is not None else f' <span class="cites" data-doi="{p["doi"].lower()}"></span>'
+
         plain_title = re.sub(r"<[^>]+>", "", p["t"])
         if p.get("toc"):
             credit = f'Published table-of-contents graphic. {re.sub(r"<[^>]+>", "", p["j"])} ({year}). Source: {p.get("toc_source") or "publisher"}.'
@@ -28,7 +35,7 @@ for year, group in groupby(pubs, key=lambda p: p["y"]):
                 <div class="full-body">
                   <a class="full-title" href="https://doi.org/{p['doi']}" target="_blank" rel="noopener">{p['t']}</a>
                   <p class="full-authors">{authors}</p>
-                  <p class="full-meta mono"><span class="accent">{p['j']}</span> {p['v']}, {p['p']}</p>
+                  <p class="full-meta mono"><span class="accent">{p['j']}</span> {p['v']}, {p['p']}{cite_html}</p>
                 </div>
               </li>''')
     out.append("            </ol>\n          </li>")
