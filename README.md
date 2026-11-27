@@ -14,7 +14,9 @@ Open `index.html` in a browser, or serve the folder:
 - `assets/img/`: research concept renders (`research-*.webp`, 900px card + full size), published TOC / figures for the featured papers (`toc-*.webp`), hero render (`hero-material*.webp`), gripper photographs (KAIST News)
 - `assets/fonts/`: Archivo 400–700 (woff2, SIL OFL)
 - `tools/build_publications.py`: rebuilds the All publications list in `index.html` from the JSON (run after adding a TOC image)
-- `data/publications.json`: full publication list (30 articles from ORCID, details from Crossref; the 2020 corrigendum is left out)
+- `data/publications.json`: full publication list (31 articles; roles † first/co-first and * corresponding follow the CV; "cites" = Google Scholar per-paper counts)
+- `data/scholar.json`: Google Scholar totals (citations, h-index, i10) and the "as of" date
+- To refresh citations: copy the numbers from the Scholar profile into those two files, then run `python3 tools/build_publications.py`
 - `concepts/`: earlier five design studies (kept for reference, not indexed)
 
 ## Editing

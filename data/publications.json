@@ -1,5 +1,36 @@
 [
  {
+  "doi": "10.1016/j.cej.2026.182203",
+  "y": 2026,
+  "t": "Architecturally tailored starpolymer catalysts for efficient CO<sub>2</sub> cycloaddition at room temperature and atmospheric pressure",
+  "j": "Chemical Engineering Journal",
+  "v": "549",
+  "p": "182203",
+  "a": [
+   "S. H. Kim",
+   "M. J. Cha",
+   "Y. Song",
+   "K. W. Bong",
+   "S. B. Park",
+   "H. J. Kim",
+   "J. M. Koo",
+   "Y. Yamauchi",
+   "J. Y. Seo",
+   "J. Na"
+  ],
+  "toc": "assets/img/ga-cej-2026-182203.webp",
+  "toc_thumb": "assets/img/ga-cej-2026-182203-600.webp",
+  "toc_source": "Elsevier",
+  "corr": [
+   "J. Y. Seo",
+   "J. Na"
+  ],
+  "first": [
+   "S. H. Kim"
+  ],
+  "cites": 0
+ },
+ {
   "doi": "10.1038/s41467-026-73735-4",
   "y": 2026,
   "t": "Machine learning guided formulation design of digital light processing printable elastomers beyond viscosity stretchability tradeoff",
@@ -25,7 +56,7 @@
    "Y. Song",
    "B. Park"
   ],
-  "cites": 1
+  "cites": 5
  },
  {
   "doi": "10.1016/j.ijbiomac.2026.153803",
@@ -42,16 +73,18 @@
    "W.-K. Park",
    "H. Kim"
   ],
-  "toc": null,
-  "toc_thumb": null,
-  "toc_source": null,
+  "toc": "assets/img/toc-2026-j-ijbiomac-2026-153803.webp",
+  "toc_thumb": "assets/img/toc-2026-j-ijbiomac-2026-153803-600.webp",
+  "toc_source": "Elsevier (original TOC graphic, provided by the author)",
   "corr": [
    "H. Kim"
   ],
   "first": [
-   "S. Lee"
+   "S. Lee",
+   "Y. Song"
   ],
-  "cites": 1
+  "cites": 1,
+  "toc_kind": "published"
  },
  {
   "doi": "10.1016/j.cej.2025.163848",
@@ -80,7 +113,8 @@
    "J. Y. Seo"
   ],
   "first": [
-   "J. Hwang"
+   "J. Hwang",
+   "Y. Song"
   ],
   "cites": 5
  },
@@ -105,13 +139,13 @@
   "toc_thumb": null,
   "toc_source": null,
   "corr": [
-   "S. H. Kim",
+   "K. Baek",
    "J. Na"
   ],
   "first": [
    "Q. T. Nguyen"
   ],
-  "cites": 15
+  "cites": 16
  },
  {
   "doi": "10.1016/j.carbpol.2024.122685",
@@ -140,9 +174,10 @@
    "J. Y. Seo"
   ],
   "first": [
-   "D. B. Jung"
+   "D. B. Jung",
+   "Y. Song"
   ],
-  "cites": 27
+  "cites": 25
  },
  {
   "doi": "10.1016/j.carbpol.2023.121489",
@@ -165,9 +200,10 @@
    "K.-Y. Baek"
   ],
   "first": [
-   "J. Y. Seo"
+   "J. Y. Seo",
+   "Y. Song"
   ],
-  "cites": 18
+  "cites": 17
  },
  {
   "doi": "10.1016/j.cej.2024.154352",
@@ -188,19 +224,18 @@
    "J. Na",
    "Y. Mao"
   ],
-  "toc": null,
-  "toc_thumb": null,
+  "toc": "assets/img/toc-2024-j-cej-2024-154352.webp",
+  "toc_thumb": "assets/img/toc-2024-j-cej-2024-154352-600.webp",
   "toc_source": null,
   "corr": [
-   "J. Wang",
-   "X. Zhu",
    "J. Na",
    "Y. Mao"
   ],
   "first": [
    "C. Wang"
   ],
-  "cites": 64
+  "cites": 70,
+  "toc_kind": "illustration"
  },
  {
   "doi": "10.1016/j.polymer.2023.126032",
@@ -221,12 +256,14 @@
   "toc_thumb": "assets/img/ga-polymer-2023-600.webp",
   "toc_source": "Elsevier",
   "corr": [
+   "C. Y. Ryu",
+   "C. Bae",
    "C. R. Picu"
   ],
   "first": [
    "L. Zakrzewski"
   ],
-  "cites": 14
+  "cites": 18
  },
  {
   "doi": "10.1016/j.carbpol.2021.118754",
@@ -250,9 +287,10 @@
    "K.-Y. Baek"
   ],
   "first": [
-   "Y. Song"
+   "Y. Song",
+   "J. Y. Seo"
   ],
-  "cites": 12
+  "cites": 13
  },
  {
   "doi": "10.1007/s10570-021-04209-7",
@@ -278,7 +316,7 @@
   "first": [
    "T. Kim"
   ],
-  "cites": 6
+  "cites": 8
  },
  {
   "doi": "10.1016/j.carbpol.2020.117387",
@@ -302,7 +340,7 @@
   "first": [
    "J. Ahn"
   ],
-  "cites": 49
+  "cites": 57
  },
  {
   "doi": "10.1021/acsami.1c08138",
@@ -326,9 +364,10 @@
    "K.-Y. Baek"
   ],
   "first": [
-   "J. Y. Seo"
+   "J. Y. Seo",
+   "Y. Song"
   ],
-  "cites": 45
+  "cites": 49
  },
  {
   "doi": "10.12772/TSE.2020.57.192",
@@ -336,7 +375,7 @@
   "t": "Preparation of Melt-blending Polylactic Acid/Halloysite Nanotube Composite Films for Improvement of Tearing Strength",
   "j": "Textile Science and Engineering",
   "v": "57",
-  "p": "192",
+  "p": "192–198",
   "a": [
    "T. Kim",
    "E. Ko",
@@ -347,14 +386,17 @@
    "M. Kim",
    "H. Kim"
   ],
-  "toc": null,
-  "toc_thumb": null,
+  "toc": "assets/img/toc-2020-tse-2020-57-192.webp",
+  "toc_thumb": "assets/img/toc-2020-tse-2020-57-192-600.webp",
   "toc_source": null,
-  "corr": [],
+  "corr": [
+   "H. Kim"
+  ],
   "first": [
    "T. Kim"
   ],
-  "cites": 1
+  "cites": 0,
+  "toc_kind": "illustration"
  },
  {
   "doi": "10.1007/s10570-020-03099-5",
@@ -376,9 +418,10 @@
    "H. Kim"
   ],
   "first": [
-   "J. Woo"
+   "J. Woo",
+   "Y. Song"
   ],
-  "cites": 48
+  "cites": 52
  },
  {
   "doi": "10.1007/s12221-020-9934-4",
@@ -392,16 +435,18 @@
    "H. Kim",
    "Y. Song"
   ],
-  "toc": null,
-  "toc_thumb": null,
+  "toc": "assets/img/toc-2020-s12221-020-9934-4.webp",
+  "toc_thumb": "assets/img/toc-2020-s12221-020-9934-4-600.webp",
   "toc_source": null,
   "corr": [
    "Y. Song"
   ],
   "first": [
-   "J. Woo"
+   "J. Woo",
+   "H. Kim"
   ],
-  "cites": 6
+  "cites": 7,
+  "toc_kind": "illustration"
  },
  {
   "doi": "10.7317/pk.2019.43.6.958",
@@ -415,14 +460,17 @@
    "Y. Kim",
    "H. Kim"
   ],
-  "toc": null,
-  "toc_thumb": null,
+  "toc": "assets/img/toc-2019-pk-2019-43-6-958.webp",
+  "toc_thumb": "assets/img/toc-2019-pk-2019-43-6-958-600.webp",
   "toc_source": null,
-  "corr": [],
+  "corr": [
+   "H. Kim"
+  ],
   "first": [
    "Y. Song"
   ],
-  "cites": 0
+  "cites": 2,
+  "toc_kind": "illustration"
  },
  {
   "doi": "10.1016/j.dib.2019.104038",
@@ -438,16 +486,18 @@
    "J. Woo",
    "H. Kim"
   ],
-  "toc": null,
-  "toc_thumb": null,
+  "toc": "assets/img/toc-2019-j-dib-2019-104038.webp",
+  "toc_thumb": "assets/img/toc-2019-j-dib-2019-104038-600.webp",
   "toc_source": null,
   "corr": [
    "H. Kim"
   ],
   "first": [
-   "J. Ahn"
+   "J. Ahn",
+   "Y. Song"
   ],
-  "cites": 41
+  "cites": 44,
+  "toc_kind": "illustration"
  },
  {
   "doi": "10.1007/s12221-019-1038-7",
@@ -461,8 +511,8 @@
    "Y. Song",
    "H. Kim"
   ],
-  "toc": null,
-  "toc_thumb": null,
+  "toc": "assets/img/toc-2019-s12221-019-1038-7.webp",
+  "toc_thumb": "assets/img/toc-2019-s12221-019-1038-7-600.webp",
   "toc_source": null,
   "corr": [
    "H. Kim"
@@ -470,7 +520,8 @@
   "first": [
    "Y. Kim"
   ],
-  "cites": 5
+  "cites": 5,
+  "toc_kind": "illustration"
  },
  {
   "doi": "10.1016/j.msec.2019.04.019",
@@ -496,9 +547,10 @@
    "H. Kim"
   ],
   "first": [
-   "J. Ahn"
+   "J. Ahn",
+   "Y. Song"
   ],
-  "cites": 140
+  "cites": 154
  },
  {
   "doi": "10.1016/j.carbpol.2019.115018",
@@ -521,9 +573,10 @@
    "K.-Y. Baek"
   ],
   "first": [
-   "Y. Song"
+   "Y. Song",
+   "J. Y. Seo"
   ],
-  "cites": 97
+  "cites": 105
  },
  {
   "doi": "10.1007/s10570-017-1625-y",
@@ -544,9 +597,10 @@
    "H. Kim"
   ],
   "first": [
-   "Y. Kim"
+   "Y. Kim",
+   "Y. Song"
   ],
-  "cites": 29
+  "cites": 42
  },
  {
   "doi": "10.12772/tse.2017.54.017",
@@ -560,14 +614,17 @@
    "C. Kim",
    "H. Kim"
   ],
-  "toc": null,
-  "toc_thumb": null,
+  "toc": "assets/img/toc-2017-tse-2017-54-017.webp",
+  "toc_thumb": "assets/img/toc-2017-tse-2017-54-017-600.webp",
   "toc_source": null,
-  "corr": [],
+  "corr": [
+   "H. Kim"
+  ],
   "first": [
    "Y. Song"
   ],
-  "cites": 1
+  "cites": 1,
+  "toc_kind": "illustration"
  },
  {
   "doi": "10.1021/acsmacrolett.7b00307",
@@ -590,7 +647,7 @@
   "first": [
    "Y. Ahn"
   ],
-  "cites": 21
+  "cites": 22
  },
  {
   "doi": "10.1016/j.carbpol.2016.12.022",
@@ -605,17 +662,17 @@
    "H. Kim",
    "S.-Y. Kwak"
   ],
-  "toc": null,
-  "toc_thumb": null,
+  "toc": "assets/img/toc-2017-j-carbpol-2016-12-022.webp",
+  "toc_thumb": "assets/img/toc-2017-j-carbpol-2016-12-022-600.webp",
   "toc_source": null,
   "corr": [
-   "H. Kim",
    "S.-Y. Kwak"
   ],
   "first": [
    "Y. Ahn"
   ],
-  "cites": 7
+  "cites": 8,
+  "toc_kind": "illustration"
  },
  {
   "doi": "10.1007/s12221-017-7079-x",
@@ -632,16 +689,18 @@
    "Y. Kim",
    "H. Kim"
   ],
-  "toc": null,
-  "toc_thumb": null,
+  "toc": "assets/img/toc-2017-s12221-017-7079-x.webp",
+  "toc_thumb": "assets/img/toc-2017-s12221-017-7079-x-600.webp",
   "toc_source": null,
   "corr": [
    "H. Kim"
   ],
   "first": [
-   "Y. Song"
+   "Y. Song",
+   "C. Kim"
   ],
-  "cites": 11
+  "cites": 11,
+  "toc_kind": "illustration"
  },
  {
   "doi": "10.1016/j.carbpol.2015.10.006",
@@ -656,16 +715,19 @@
    "S.-Y. Kwak",
    "H. Kim"
   ],
-  "toc": null,
-  "toc_thumb": null,
+  "toc": "assets/img/toc-2016-j-carbpol-2015-10-006.webp",
+  "toc_thumb": "assets/img/toc-2016-j-carbpol-2015-10-006-600.webp",
   "toc_source": null,
   "corr": [
+   "S.-Y. Kwak",
    "H. Kim"
   ],
   "first": [
-   "Y. Ahn"
+   "Y. Ahn",
+   "Y. Song"
   ],
-  "cites": 27
+  "cites": 27,
+  "toc_kind": "illustration"
  },
  {
   "doi": "10.1039/c5cp06616f",
@@ -687,9 +749,11 @@
    "H. Kim"
   ],
   "first": [
-   "Y. Ahn"
+   "Y. Ahn",
+   "S.-Y. Kwak",
+   "Y. Song"
   ],
-  "cites": 37
+  "cites": 47
  },
  {
   "doi": "10.1186/s40691-015-0036-7",
@@ -705,8 +769,8 @@
    "Y. Song",
    "H. Kim"
   ],
-  "toc": null,
-  "toc_thumb": null,
+  "toc": "assets/img/toc-2015-s40691-015-0036-7.webp",
+  "toc_thumb": "assets/img/toc-2015-s40691-015-0036-7-600.webp",
   "toc_source": null,
   "corr": [
    "H. Kim"
@@ -714,7 +778,8 @@
   "first": [
    "Y. Kang"
   ],
-  "cites": 15
+  "cites": 21,
+  "toc_kind": "illustration"
  },
  {
   "doi": "10.12772/tse.2014.51.299",
@@ -728,14 +793,17 @@
    "Y. Song",
    "H. Kim"
   ],
-  "toc": null,
-  "toc_thumb": null,
+  "toc": "assets/img/toc-2014-tse-2014-51-299.webp",
+  "toc_thumb": "assets/img/toc-2014-tse-2014-51-299-600.webp",
   "toc_source": null,
-  "corr": [],
+  "corr": [
+   "H. Kim"
+  ],
   "first": [
    "H. E. Cho"
   ],
-  "cites": 0
+  "cites": 2,
+  "toc_kind": "illustration"
  },
  {
   "doi": "10.1007/s12221-014-1835-y",
@@ -751,8 +819,8 @@
    "Y.-H. Yang",
    "H. Kim"
   ],
-  "toc": null,
-  "toc_thumb": null,
+  "toc": "assets/img/toc-2014-s12221-014-1835-y.webp",
+  "toc_thumb": "assets/img/toc-2014-s12221-014-1835-y-600.webp",
   "toc_source": null,
   "corr": [
    "H. Kim"
@@ -760,6 +828,7 @@
   "first": [
    "M. K. Ku"
   ],
-  "cites": 14
+  "cites": 12,
+  "toc_kind": "illustration"
  }
 ]

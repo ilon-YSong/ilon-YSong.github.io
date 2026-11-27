@@ -94,29 +94,3 @@
     copyBtn._t = setTimeout(() => { status.textContent = ''; copyBtn.textContent = 'Copy email'; }, 2600);
   });
 })();
-
-// Live citation counts from OpenAlex (no key needed). Falls back to the snapshot in the HTML.
-(async () => {
-  const stats = document.querySelector('.cite-stats');
-  const cells = [...document.querySelectorAll('.cites[data-doi]')];
-  if (!stats && !cells.length) return;
-  const orcid = '0000-0001-8236-3793';
-  try {
-    const [author, works] = await Promise.all([
-      fetch('https://api.openalex.org/authors/orcid:' + orcid).then(r => r.ok ? r.json() : Promise.reject(r.status)),
-      fetch('https://api.openalex.org/works?filter=author.orcid:' + orcid + '&per-page=200&select=doi,cited_by_count').then(r => r.ok ? r.json() : Promise.reject(r.status)),
-    ]);
-    if (stats && author && author.summary_stats) {
-      const b = stats.querySelectorAll('b');
-      b[0].textContent = author.cited_by_count;
-      b[1].textContent = author.summary_stats.h_index;
-      b[2].textContent = author.summary_stats.i10_index;
-    }
-    const map = {};
-    (works.results || []).forEach(w => { if (w.doi) map[w.doi.replace('https://doi.org/', '').toLowerCase()] = w.cited_by_count; });
-    cells.forEach(c => {
-      const n = map[c.dataset.doi];
-      if (typeof n === 'number') c.textContent = (c.closest('.pub-links') ? '' : '· ') + 'Cited by ' + n;
-    });
-  } catch (e) { /* keep snapshot values */ }
-})();

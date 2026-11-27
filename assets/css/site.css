@@ -335,3 +335,10 @@ sup.role { font-size: .72em; line-height: 0; color: var(--accent); margin-left: 
 .all-pubs .role-legend { margin-top: 10px; }
 @media (max-width: 720px) { .all-side { justify-items: start; } }
 @media (max-width: 720px) { .full-toc { max-width: 240px; } }
+
+/* About: experience and education */
+.cv { display: grid; grid-template-columns: 96px 1fr; margin: 30px 0 0; border-top: 1px solid var(--line); }
+.cv dt, .cv dd { padding: 11px 0; border-bottom: 1px solid var(--line); margin: 0; }
+.cv dt { font-size: 12px; color: var(--accent); letter-spacing: .02em; padding-top: 13px; }
+.cv dd { font-size: 15px; line-height: 1.45; color: var(--ink); }
+@media (max-width: 560px) { .cv { grid-template-columns: 78px 1fr; } .cv dd { font-size: 14px; } }
